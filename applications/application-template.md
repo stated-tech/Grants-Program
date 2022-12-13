@@ -22,6 +22,10 @@ Root’s purpose is to make on-chain governance fun, participatory and ultimatel
 
 When addressing the current issues with on-chain governance, we need to begin by focusing on the fundamental outcome we have in mind when designing new tools and processes.
 
+For the past few months, Stated has been focusing on governance throughout DotSama and researching on developing a new proposal system to improve low-level consensuses for teams who want to participate in on-chain governance programs.
+
+We've already spent several weeks working on this field and came up with this ggdoc hack to show DotSama what we would like to achieve.
+
 We should be very clear as to what certain developments aim to optimise, for who and what purpose, since these problems are all part of a bigger picture.
 Without aligning on a core motivation we are in danger of collectively making the overall system worse in aggregate.
 A starting point for this is sourcing, sustaining and scaling collective network intelligence.
@@ -61,10 +65,7 @@ Root is a collective creation and decision making system that uses a composable 
 
 - As a participant, I can create alternatives to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
-On first impression, this might sound like it will have an even greater administrative burden on proposers and voters - but this is before we consider:
-Economic participation.
-
-But suddenly we can open up proposals as economic opportunities for anyone to review/improve/iterate proposals and indeed the projects themselves.
+Suddenly we can open up proposals as economic opportunities for anyone to review/improve/iterate proposals and indeed the projects themselves.
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
 It also starts to solve other issues - namely, information asymmetry between voters (who are likely more familiar with the core chain/tech/culture) and outsiders, namely those wandering into the lion’s den - with excitement and energy ready to be pummeled out of them…
 We can see how from here we also begin to solve issues such as talent acquisition, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
@@ -72,18 +73,24 @@ We can see how from here we also begin to solve issues such as talent acquisitio
 **Imaginative proposals**
 
 We inspire more originality and opportunity. By pushing in exactly the opposite direction to form creation and data standardisation, we design in a more humane way… appreciating that what works for some, will not work for all.
-Boostrapping on-chain organisations (creative collectives)
+
+**Boostrapping on-chain organisations (creative collectives)**
+
 If the process just ends with voters approving funds into a ‘project multsig’, we essentially leave the funded team successful in one part of the process (getting funding approval) but left entirely on their own to figure out delivery of what is in essence something that almost always needs to mesh with a complex and ever changing underlying system.
+
 This leads to proposals taking far longer, teams being paid far less, whilst voters get irate at the time taken, which leads to mistrust, which further exacerbates tensions, which further degrades the governance process. Both sides move apart, and lessons are never learned.
+
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s proxies 3.
 
 [This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our Proof of Concept for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. In this paper, we introduce a new way of comprehending on-chain governance via a cutting-edge 18th century old voting system.
 
-For the past few months, Stated has been focusing on governance throughout DotSama and researching on developing a new proposal system to improve low-level consensuses for teams who want to participate in on-chain governance programs.
+We basically introduce a weighted system to help people participate in on-chain governance equally, no matter how many tokens they have. **Root uses a composable voting system inspired by Borda’s Count to compute voting and allow DAO contributors to create preferendums directly linked to the governance pallets. This computational voting system is at the core of Root’s decision-making platform.**
 
-We've already spent several weeks working on this field and came up with this ggdoc hack to show DotSama what we would like to achieve.
+- As DAO participant on Root, I can create alternatives to a proposal’s subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
-We basically introduce a weighted system to help people participate in on-chain governance equally, no matter how many tokens they have.
+- Root also allows for making elections more representative of the participants’ preferences.
+
+We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
 
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposal to referendum.
 
@@ -94,11 +101,28 @@ We want to unlock governance onboarding from whatever web2 platform and put it d
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
+The stated.tech team seeks to provide the ecosystem with Root as a new governance solution available to every parachain & implementable throughout any dApp on those parachains.
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
+As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
+
+The State of DotSama has reached a point where people can no longer cooperate without competing: this is a strong sign of centralization. Do we want parachains evolve into trusts that litteraly own DotSama?
+
+We need to reverse the pressure ; hack web2 to make it look web1 ; grow our own seeds, and root them on-chain. In doing so, we'll embrace web3 as a true community owned decentralized system: not just a marketplace for blockspace but something more human.
+
+We thus identified few major issues that need to be solved ASAP in order to fix DotSama's governance. Indeed, the current centralization in decision making processes within blockchain ecosystems results in:
+
+- Lack of communication between voters and proposal makers
+
+- Lack of cooperation between curators, facilitators, building teams and voters
+
+- Lack of composability in the proposal-making process
+(I can agree to the general proposal but not to a specific part of it)
+
+- Lack of connections to on-chain treasuries
+
+Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
+
+
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
@@ -107,8 +131,9 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
-- Matthieu is a JS back-end developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
+**Lead team**
+- PM: David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
+- Substrate + JS dev: Matthieu is a JS back-end developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
 
 **Supervisor, facilitator:** 
 - Richchard Welsh from Decent Partners
@@ -150,6 +175,22 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://scholar.google.com/citations?user=<person_2>
 
 ## Development Status :open_book:
+
+We imagined to develop preferundum on-chain with a “console like” front end using graphQL. You will be able to call current preferundum, to list all preferundums., to make your own one, to add possibilities to those in progress and of course to vote.
+
+This “console” will be based on three pallets that we have currently began to work on.
+
+
+- The first used is the pallet proxy, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
+
+-The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
+
+- The third one is a graph. All the data from Hashmap will be structured to a graph. Firstly because it should be relevant if you want to see interactions (and a lot of uses as well). And secondly because we would like to use a DNSP in the future.
+
+
+The data you put on the console won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
+
+What we implemented in this template - linked google doc and discord - will be the same with our console. We could display it everywhere, discord, telegram etc.
 
 If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
 
