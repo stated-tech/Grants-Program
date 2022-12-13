@@ -57,9 +57,9 @@ Referendums offer binary votes on some package of information, but as we know th
 
 Root is a collective creation and decision making system that uses a composable voting system inspired by Borda’s Count 1 to compute voting and allow contributors to create preferendums directly linked to the governance pallets.
 
-As a proposer, I can create a draft with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
+- As a proposer, I can create a draft with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
 
-As a participant, I can create alternatives to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
+- As a participant, I can create alternatives to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
 On first impression, this might sound like it will have an even greater administrative burden on proposers and voters - but this is before we consider:
 Economic participation.
