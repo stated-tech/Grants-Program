@@ -3,7 +3,7 @@
 
 - **Team Name:** stated.tech
 - **Payment Address:** mpbXzMgPFbKmXkb6Z6rHK7n6s1gfLJAj9f6rkLdpRjXPX5N
-- **[Level]**2
+- **[Level]2**
 
 
 ## Project Overview :page_facing_up:
