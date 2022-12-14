@@ -195,27 +195,28 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
-### Milestone 1 Example — Basic functionality
+### Milestone 1 MVP: Root - Governance as a Service 20k
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:** 2 month
+- **FTE:**  2
+- **Costs:** 20,000 USD
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. If you do not intend to deliver one of these, please state a reason in its specification (e.g. Milestone X is research oriented and as such there is no code to test).
+Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run nodes efficiency.
+
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0a.** | License | TBD |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create a preferundum, edit one, add possibility, vote, participate in the proxy |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
+| 1. | Substrate module: preferundum | This pallet will contains the logic of the preferundum. Create, add question/possibility, and the vote |
+| 2. | Substrate module: Proxy | We will use the proxy pallet to create team, this will have to be linked with the previous pallet |
+| 3. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are lock until the end of the vote. Every one will have the right to vote with the same number of tokens, like 100 Edg. |
+| 4. | Boot v2 | Integration of IPFS for text / command to call, create, add, edit everything, display all that in Discord (and probably telegram and every application we want) + vreation of forms that enables to vote when the quorum decided it: this is our front end |
+| 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, |
+| 6. | Identity | TBD
 
 
 ### Milestone 2 Example — Additional features
