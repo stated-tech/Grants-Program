@@ -118,11 +118,6 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
 
-
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different?
-  - If not, are there similar projects in related ecosystems?
-
 ## Team :busts_in_silhouette:
 
 ### Team members
