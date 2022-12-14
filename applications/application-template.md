@@ -155,7 +155,8 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 - https://github.com/stated-tech
 
-You can find in this github the code of our bot linking google doc/discord. An exemple of a google template is :https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/ 
+You can find in this github the code of our bot linking google doc/discord. An exemple of a google template is : https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/. 
+
 You can find aswell the beginning of the pallet preferundum. 
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
@@ -175,7 +176,7 @@ This “console” will be based on two pallets that we have currently began to 
 
 - The first used is the pallet proxy, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
 
--The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
+- The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
 
 The data you put on the console won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
 
@@ -185,8 +186,6 @@ With our console, it will be the same. We could display it everywhere, discord, 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in. 
 
 ## Development Roadmap :nut_and_bolt:
-
-
 
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
