@@ -229,6 +229,8 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ## Future Plans
 
+
+
 Please include here
 
 - how you intend to use, enhance, promote and support your project in the short term, and
@@ -246,6 +248,15 @@ You can find more information about the program [here](../README.md#moneybag-ref
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
-- Previous grants you may have applied for.
+For the past few months, Stated has been focusing on governance throughout DotSama and researching on developing a new proposal system to improve low-level consensuses for teams who want to participate in on-chain governance programs.
+
+We've already spent several weeks working on this field and came up with this ggdoc hack to show DotSama what we would like to achieve.
+
+Link to preferendum: https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing
+We’re planning to set up our first vote on Discord thanks to our native bot called boot. Boot is basically our storefront to push our logic on any UI (text editor, chat, or any publication platform).
+
+Voting will happen here: https://discord.gg/RA2FFZuRmz
+
+Link to Boot’s code: https://github.com/stated-tech/root/blob/main/boot.js 
+
+The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
