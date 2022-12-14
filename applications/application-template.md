@@ -128,28 +128,28 @@ Which leads to a lack of engagement from contributors, and billion dollars econo
 ### Team members
 
 **Lead team**
-- PM: David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
-- Substrate + JS dev: Matthieu is a JS back-end developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
+- PM: David Germanowicz
+- Substrate + JS full-stack dev: Matthiew M23.
 
 **Supervisor, facilitator:** 
 - Richchard Welsh from Decent Partners
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** stated.tech
+- **Contact Email:** stated.tech@proton.me
+- **Website:** http://www.stated.tech/
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** TBD
+- **Registered Legal Entity:** TBD
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. For research-related grants, references to past publications and projects in a related domain are helpful.
+MatthiewM is a JS full-stack developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
 
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
 
 ### Team Code Repos
 
@@ -166,6 +166,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
+- https://www.linkedin.com/in/david-germanowicz-57151a236/
 
 ## Development Status :open_book:
 
