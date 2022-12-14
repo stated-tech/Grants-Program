@@ -153,50 +153,40 @@ If anyone on your team has applied for a grant at the Web3 Foundation previously
 
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/stated-tech
+
+You can find in this github the code of our bot linking google doc/discord. An exemple of a google template is :https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/ 
+You can find aswell the beginning of the pallet preferundum. 
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/Matthiewm23
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
-### Google Scholar Profiles (only for research projects)
-- https://scholar.google.com/citations?user=<person_1>
-- https://scholar.google.com/citations?user=<person_2>
+- https://www.linkedin.com/in/matt-m-6a557b254/
 
 ## Development Status :open_book:
 
 We imagined to develop preferundum on-chain with a “console like” front end using graphQL. You will be able to call current preferundum, to list all preferundums., to make your own one, to add possibilities to those in progress and of course to vote.
 
-This “console” will be based on three pallets that we have currently began to work on.
+This “console” will be based on two pallets that we have currently began to work on.
 
 
 - The first used is the pallet proxy, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
 
 -The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
 
-- The third one is a graph. All the data from Hashmap will be structured to a graph. Firstly because it should be relevant if you want to see interactions (and a lot of uses as well). And secondly because we would like to use a DNSP in the future.
-
-
 The data you put on the console won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
 
-What we implemented in this template - linked google doc and discord - will be the same with our console. We could display it everywhere, discord, telegram etc.
+We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
+With our console, it will be the same. We could display it everywhere, discord, telegram etc.
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
-
-- links to improvement proposals or [RFPs](https://github.com/w3f/Grants-Program/tree/master/rfp-proposal) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in. 
 
 ## Development Roadmap :nut_and_bolt:
+
+
 
 This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
 
