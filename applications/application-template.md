@@ -257,6 +257,6 @@ We’re planning to set up our first vote on Discord thanks to our native bot ca
 
 Voting will happen here: https://discord.gg/RA2FFZuRmz
 
-Link to Boot’s code: https://github.com/stated-tech/root/blob/main/boot.js 
+Link to Boot’s code: https://github.com/stated-tech/root/blob/main/Boot.js
 
 The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
