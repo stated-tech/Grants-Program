@@ -105,10 +105,6 @@ The stated.tech team seeks to provide the ecosystem with Root as a new governanc
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
-The State of DotSama has reached a point where people can no longer cooperate without competing: this is a strong sign of centralization. Do we want parachains evolve into trusts that litteraly own DotSama?
-
-We need to reverse the pressure ; hack web2 to make it look web1 ; grow our own seeds, and root them on-chain. In doing so, we'll embrace web3 as a true community owned decentralized system: not just a marketplace for blockspace but something more human.
-
 We thus identified few major issues that need to be solved ASAP in order to fix DotSama's governance. Indeed, the current centralization in decision making processes within blockchain ecosystems results in:
 
 - Lack of communication between voters and proposal makers
