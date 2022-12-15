@@ -210,10 +210,11 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
 | 1. | Boot.js | This repo will be treating both our console-like front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote |
 | 2. | Discord | We will do Discord Moderation and boot maintainance on Discord |
-| 3. | Twitter | We will post updated on Twitter and eventually push boot on Twitter as well |
-| 4. | Telegram | Preferendum integration and maintainance. |
-| 5. | Roadmap maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
-| 6. | Hosting | Bot real time hosting and version control |
+| 3. | Telegram | Preferendum integration and maintainance. |
+| 4. | Element | Preferendum integration and maintainance. |
+| 5. | Twitter | We will post updated on Twitter and eventually push boot on Twitter as well |
+| 6. | Roadmap maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
+| 7. | Hosting | Bot real time hosting and version control |
 
 
 ### Milestone 2 MVP: Root - Governance as a Service 20k
