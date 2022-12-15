@@ -208,6 +208,7 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
+| 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums |
 | 1. | Boot.js | This repo will be treating both our console-like front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote |
 | 2. | Discord | We will do Discord Moderation and boot maintainance on Discord |
 | 3. | Telegram | Preferendum integration and maintainance. |
