@@ -33,7 +33,7 @@ Our first goal is to facilitate low level consensuses for proposals from initiat
 
 ### Project Details
 
-## Current issues with on-chain proposal development
+### Current issues with on-chain proposal development
 
 When addressing current issues we need to begin by focusing on the fundamental outcome we have in mind when designing new tools and processes.
 
@@ -81,7 +81,7 @@ This leads to proposals taking far longer, teams being paid far less, whilst vot
 
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
 
-#### How Root works 
+### How Root works 
 
 We introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
 
@@ -191,7 +191,9 @@ The data you put on the console won’t be stored in the blockchain to avoid a f
 We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
 With our console, it will be the same. We could display it everywhere, discord, telegram etc.
 
-The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in. 
+The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
+
+!(https://github.com/stated-tech/Grants-Program/blob/master/Root%20principles.png)
 
 ## Development Roadmap :nut_and_bolt:
 
