@@ -195,13 +195,10 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ![Root Principles](https://github.com/stated-tech/Grants-Program/blob/master/Root%20principles.png)
 
+![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic.png)
+
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic.png)
 
 ### Overview
 
