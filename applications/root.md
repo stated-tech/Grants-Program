@@ -81,7 +81,7 @@ This leads to proposals taking far longer, teams being paid far less, whilst vot
 
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
 
-## How Root works 
+#### How Root works 
 
 We introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
 
