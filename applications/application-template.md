@@ -40,6 +40,7 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
 Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for dumb decisions - aka, there should be some time cost to making a good decision and that should be implicit in the design principles.
 Other projects such as Proof of Chaos also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
+
 So yes we want to get people to swipe easily, (think tinder for governance for good and bad) but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote.
 When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives). 
 
@@ -67,6 +68,7 @@ Root is a collective creation and decision making system that uses a composable 
 
 Suddenly we can open up proposals as economic opportunities for anyone to review/improve/iterate proposals and indeed the projects themselves.
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
+
 It also starts to solve other issues - namely, information asymmetry between voters (who are likely more familiar with the core chain/tech/culture) and outsiders, namely those wandering into the lion’s den - with excitement and energy ready to be pummeled out of them…
 We can see how from here we also begin to solve issues such as talent acquisition, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
@@ -101,7 +103,7 @@ We want to unlock governance onboarding from whatever web2 platform and put it d
 
 ### Ecosystem Fit
 
-The stated.tech team seeks to provide the ecosystem with Root as a new governance solution available to every parachain & implementable throughout any dApp on those parachains.
+The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains.
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
@@ -117,6 +119,8 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 - Lack of connections to on-chain treasuries
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
+
+We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and comprehensible.
 
 ## Team :busts_in_silhouette:
 
