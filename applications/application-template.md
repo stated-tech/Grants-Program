@@ -5,7 +5,6 @@
 - **Payment Address:** mpbXzMgPFbKmXkb6Z6rHK7n6s1gfLJAj9f6rkLdpRjXPX5N
 - **[Level]2**
 
-
 ## Project Overview :page_facing_up:
 
 This application is in response to several attempts at governance, starting from Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18?u=davedotsama) to a [RFP](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) to Edgeware DAO. It has the ambition to standardize proposal making processes for the whole substrate ecosystem and DotSama in general.
@@ -17,7 +16,6 @@ It is built around a collective creation and decision making system that uses a 
 
 Root’s purpose is to make on-chain governance fun, participatory and ultimately smarter. Our first goal is to facilitate low level consensuses within building teams before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM. If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
 
-
 ### Project Details
 
 When addressing the current issues with on-chain governance, we need to begin by focusing on the fundamental outcome we have in mind when designing new tools and processes.
@@ -28,8 +26,11 @@ We've already spent several weeks working on this field and came up with this gg
 
 We should be very clear as to what certain developments aim to optimise, for who and what purpose, since these problems are all part of a bigger picture.
 Without aligning on a core motivation we are in danger of collectively making the overall system worse in aggregate.
+
 A starting point for this is sourcing, sustaining and scaling collective network intelligence.
+
 This is a very different design philosophy to simply ‘driving adoption / participation’.
+
 Let’s break this down a little more by arguing for some of the current ideas that might seem on the surface to solve certain issues:
 
 - **Problem 1 : voting systems are too complex**
@@ -39,10 +40,10 @@ Let’s break this down a little more by arguing for some of the current ideas t
   - **Solution: we need simpler mobile app UX/UI w/ swipe / notifications**
 
 Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for dumb decisions - aka, there should be some time cost to making a good decision and that should be implicit in the design principles.
-Other projects such as Proof of Chaos also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
 
-So yes we want to get people to swipe easily, (think tinder for governance for good and bad) but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote.
-When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives). 
+Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
+
+So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives). 
 
 - **Problem 2: no standardisation of proposal data**
 
@@ -51,6 +52,7 @@ When seen this way, we can also understand voter participation as an entertainme
   - **Solution: proposal forms**
 
 The standardising of data inputs - is something we have debated endlessly, since we have no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
+
 The issues of no standardisation:
 
 - For proposers: a blank sheet of paper is harder to fill out than a few boxes which trends towards proposer apathy / missing info / administrative time suck.
@@ -58,19 +60,20 @@ The issues of no standardisation:
 
 A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
 
-Referendums offer binary votes on some package of information, but as we know they are very dumb tools.
+**Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
 
 Root is a collective creation and decision making system that uses a composable voting system inspired by Borda’s Count 1 to compute voting and allow contributors to create preferendums directly linked to the governance pallets.
 
-- As a proposer, I can create a draft with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
+- *As a proposer*, I can create a **draft** with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
 
-- As a participant, I can create alternatives to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
+- *As a participant*, I can create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
-Suddenly we can open up proposals as economic opportunities for anyone to review/improve/iterate proposals and indeed the projects themselves.
+Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves.
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
 
 It also starts to solve other issues - namely, information asymmetry between voters (who are likely more familiar with the core chain/tech/culture) and outsiders, namely those wandering into the lion’s den - with excitement and energy ready to be pummeled out of them…
-We can see how from here we also begin to solve issues such as talent acquisition, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
+
+We can see how from here we also begin to solve issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
 **Imaginative proposals**
 
@@ -86,7 +89,9 @@ If we can drive forward more nuanced and interactive decision making, that leads
 
 [This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our Proof of Concept for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. In this paper, we introduce a new way of comprehending on-chain governance via a cutting-edge 18th century old voting system.
 
-We basically introduce a weighted system to help people participate in on-chain governance equally, no matter how many tokens they have. **Root uses a composable voting system inspired by Borda’s Count to compute voting and allow DAO contributors to create preferendums directly linked to the governance pallets. This computational voting system is at the core of Root’s decision-making platform.**
+We basically introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
+
+**Root uses a composable voting system inspired by Borda’s Count to compute voting and allow DAO contributors to create preferendums directly linked to the governance pallets. This computational voting system is at the core of Root’s decision-making platform.**
 
 - As DAO participant on Root, I can create alternatives to a proposal’s subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
@@ -97,9 +102,6 @@ We want to unlock governance onboarding from whatever web2 platform and put it d
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposal to referendum.
 
 We built this little governance game for collaborative creativity, decision making and recruitment for teams who want to innovate and build novel Substrate applications.
-
-We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
-
 
 ### Ecosystem Fit
 
@@ -120,7 +122,8 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
 
-We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and comprehensible.
+We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
+
 
 ## Team :busts_in_silhouette:
 
@@ -173,7 +176,6 @@ We imagined to develop preferundum on-chain with a “console like” front end 
 
 This “console” will be based on two pallets that we have currently began to work on.
 
-
 - The first used is the pallet proxy, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
 
 - The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
@@ -191,13 +193,11 @@ This section should break the development roadmap down into milestones and deliv
 
 Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
 
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
+- **Total Estimated Duration:** 3 months
+- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Costs:** 30 000 USD
 
 ### Milestone 1 Proof-Of-Concept — Boot 10k
 
@@ -213,12 +213,12 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
 | 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums | done |
-| 1. | Boot.js | This repo will be treating both our console-like front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote |
+| 1. | Module: Boot.js | This repo will be treating both our console-like front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote. From whatever UI, you can first create your preferundum through a command. First, you will prove your identity by tokengating your wallet. Which will give you the right to come in the channel. Boot will store the information of preferundum on IPFS (question of the preferundum, subjects, possibilities and quorum). Then will put the hash on-chain through the pallet preferundum. By creating it, a proxy pallet will be used to create team. In whatever UI, you can join (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. In whatever UI, you can also list all preferundums alive. When you use the command, Boot will get back the hash of all, and get back the text of IPFS and then display it to you. In whatever UI, you can also create a question (subproposal), add a possibility. Boot will store it on IFPS, add it on chain and then display it in every UI. In whatever UI, you can edit what you wrote. The logic is the same, and then it is referesh in every UI. The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet. When the quorum decide, the vote stop and result is display. |
 | 2. | Discord | We will do Discord Moderation and boot maintainance on Discord |
 | 3. | Telegram | Preferendum integration and maintainance (depending on demand). |
 | 4. | Element | Preferendum integration and maintainance. (depending on demand) |
 | 5. | Twitter | Preferendum integration and maintainance. (depending on demand) |
-| 6. | Roadmap maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
+| 6. | Roadmap updates, maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
 | 7. | Hosting | Bot real time hosting and version control |
 
 
@@ -238,10 +238,10 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
-| 1. | Module: Boot | In whatever UI, you can first create your preferundum through a command. First, you will prove your identity by tokengating your wallet. Which will give you the right to come in the channel. Boot will store the information of preferundum on IPFS (question of the preferundum, subjects, possibilities and quorum). Then will put the hash on-chain through the pallet preferundum. By creating it, a proxy pallet will be used to create team. In whatever UI, you can join (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. In whatever UI, you can also list all preferundums alive. When you use the command, Boot will get back the hash of all, and get back the text of IPFS and then display it to you. In whatever UI, you can also create a question (subproposal), add a possibility. Boot will store it on IFPS, add it on chain and then display it in every UI. In whatever UI, you can edit what you wrote. The logic is the same, and then it is referesh in every UI. The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet. When the quorum decide, the vote stop and result is display. |
+| 1. | Substrate module: Identity | In the *real* world, creating a preferendum or joining a team has a impact on your identity. We would like to explore more tokengating possibilities with this logic so that is can give permissions to discord/telegram/element channels etc.  |
 | 2. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
-| 3. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are lock until the end of the vote. Every one will have the right to vote with the same number of tokens, like 100 Edg. |
-| 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
+| 3. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. |
+| 4. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
 
 ## Future Plans
 
@@ -249,9 +249,9 @@ Once we've deployed preferendums with proxies, we're planning to use Root's pall
 
 As a Network Public, Root's goal is to become a sovereign network focused on delivering Public Services related to governance and acting as a laboratory for the DotSama ecosystem. We're thus planning to develop several types of preferendums and treasury mechanisms to act as a GaaS network (Governance as a Service).
 
-We're also planning to develop Root as a part of a broader ecosystem of publishing platforms inspired by the RMRK's architecture based on text nfts to enhance user experience and identity, as well as a publishing data ownership mechanism.
+We're also planning to develop Root as a part of a broader ecosystem of publishing platforms inspired by the RMRK's architecture based on text nfts to enhance user experience and identity, as well as a publishing data ownership mechanisms.
 
-This roadmap is explained further [here](http://www.stated.tech/).
+This roadmap is explained further on our [notion](http://www.stated.tech/).
 
 ## Referral Program (optional) :moneybag: 
 
