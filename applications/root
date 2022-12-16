@@ -1,4 +1,4 @@
-# Root - Governance Lab
+# Root - an on-chain decision-making, talent recruitment and collective formation system
 
 
 - **Team Name:** stated.tech
@@ -7,29 +7,42 @@
 
 ## Project Overview :page_facing_up:
 
-This application is in response to several attempts at governance, starting from Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18?u=davedotsama) to a [RFP](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) to Edgeware DAO. It has the ambition to standardize proposal making processes for the whole substrate ecosystem and DotSama in general.
+Root is a Substrate based decision making system that aims to plant composable proposals to grow decentralised teams from the ground up and is an entirely new way of approaching on-chain governance via a cutting-edge 18th century voting system.
+
+We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through any text environment (Discord, Telegram, Element, GoogleDocs, etc) that is then interacts directly on-chain, showing the power of graph queries to CRUD data from any API directly from/to the blockchain.
+
+Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
+
+We built this ggdoc hack to demonstrate what we would like to achieve.
+
+The project has been discussed in the Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18) and within the [Edgeware](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) community. 
 
 ### Overview
 
-Root is a Substrate based framework that gamifies governance to plant composable proposals and grow decentralised teams from the ground up.
-It is built around a collective creation and decision making system that uses a composable voting system inspired by Borda’s Count to compute voting and allow contributors to create preferendums directly linked to the governance pallets.
+Root is born from experience gained in ongoing applied contribution to on-chain governed networks such as Edgeware and aims to address many of the current limitations of existing approaches facing Substrate, Kusama and Polkadot, when it comes to existing issues around voting engagement, ecosystem talent development and the formation of effective, efficient and reputable on-chain organisations.  
 
-Root’s purpose is to make on-chain governance fun, participatory and ultimately smarter. Our first goal is to facilitate low level consensuses within building teams before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM. If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
+By returning to first principles we aim to standardize proposal making processes for the Substrate ecosystem, optimising for _intelligent adoption_ rather than simply gamifying governance in a way that may create unintended and undesirable outcomes. 
+
+Root is built around a collective creation and decision making system that uses a composable voting system inspired by Borda Count to compute voting and allow contributors to create _preferendums_ drectly linked to governance pallets.
+
+> The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
+
+Root’s purpose is to make on-chain governance fun, participatory and ultimately smarter. 
+
+Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM. If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
 
 ### Project Details
 
-When addressing the current issues with on-chain governance, we need to begin by focusing on the fundamental outcome we have in mind when designing new tools and processes.
+## Current issues with on-chain proposal development
 
-For the past few months, Stated has been focusing on governance throughout DotSama and researching on developing a new proposal system to improve low-level consensuses for teams who want to participate in on-chain governance programs.
-
-We've already spent several weeks working on this field and came up with this ggdoc hack to show DotSama what we would like to achieve.
+When addressing current issues we need to begin by focusing on the fundamental outcome we have in mind when designing new tools and processes.
 
 We should be very clear as to what certain developments aim to optimise, for who and what purpose, since these problems are all part of a bigger picture.
 Without aligning on a core motivation we are in danger of collectively making the overall system worse in aggregate.
 
-A starting point for this is sourcing, sustaining and scaling collective network intelligence.
+A starting point for this is sourcing, sustaining and scaling _collective network intelligence_.
 
-This is a very different design philosophy to simply ‘driving adoption / participation’.
+This is a very different design philosophy to simply _driving adoption / participation_.
 
 Let’s break this down a little more by arguing for some of the current ideas that might seem on the surface to solve certain issues:
 
@@ -39,11 +52,11 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Solution: we need simpler mobile app UX/UI w/ swipe / notifications**
 
-Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for dumb decisions - aka, there should be some time cost to making a good decision and that should be implicit in the design principles.
+Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
 
 Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
 
-So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives). 
+So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives beyond the scope of this grant). 
 
 - **Problem 2: no standardisation of proposal data**
 
@@ -51,7 +64,7 @@ So yes we want to get people to swipe easily, but we also need to make proposals
 
   - **Solution: proposal forms**
 
-The standardising of data inputs - is something we have debated endlessly, since we have no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
+The standardising of data inputs - is something the Edgeware community have debated endlessly, since there is no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
 
 The issues of no standardisation:
 
@@ -62,7 +75,17 @@ A simple form is the obvious answer to address short term issues, but when we ap
 
 **Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
 
-Root is a collective creation and decision making system that uses a composable voting system inspired by Borda’s Count 1 to compute voting and allow contributors to create preferendums directly linked to the governance pallets.
+In addition, the current proposal process ends with voters approving funds into a ‘project multsig’, we essentially leave the funded team successful in one part of the process (getting funding approval) but left entirely on their own to figure out delivery of what is in essence something that almost always needs to mesh with a complex and ever changing underlying system.
+
+This leads to proposals taking far longer, teams being paid far less, whilst voters get irate at the time taken, which leads to mistrust, which further exacerbates tensions, which further degrades the governance process. Both sides move apart, and lessons are never learned.
+
+If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
+
+## How Root works 
+
+We introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
+
+[This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our _proof of concept_ Google docs hack for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. 
 
 - *As a proposer*, I can create a **draft** with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
 
@@ -73,39 +96,21 @@ Engagement can have a reputational, financial and creative upside, that aligns i
 
 It also starts to solve other issues - namely, information asymmetry between voters (who are likely more familiar with the core chain/tech/culture) and outsiders, namely those wandering into the lion’s den - with excitement and energy ready to be pummeled out of them…
 
-We can see how from here we also begin to solve issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
+We can see how from these initial foundations we are on a path to solving issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
-**Imaginative proposals**
+We’re planning to set up our first vote on Discord thanks to our native bot called boot. Boot is basically our storefront to push our logic on any UI (text editor, chat, or any publication platform).
 
-We inspire more originality and opportunity. By pushing in exactly the opposite direction to form creation and data standardisation, we design in a more humane way… appreciating that what works for some, will not work for all.
+Voting will happen on [Discord](https://discord.gg/RA2FFZuRmz) here: 
 
-**Boostrapping on-chain organisations (creative collectives)**
+Link to Boot’s code: https://github.com/stated-tech/root/blob/main/Boot.js
 
-If the process just ends with voters approving funds into a ‘project multsig’, we essentially leave the funded team successful in one part of the process (getting funding approval) but left entirely on their own to figure out delivery of what is in essence something that almost always needs to mesh with a complex and ever changing underlying system.
+The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
 
-This leads to proposals taking far longer, teams being paid far less, whilst voters get irate at the time taken, which leads to mistrust, which further exacerbates tensions, which further degrades the governance process. Both sides move apart, and lessons are never learned.
-
-If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s proxies 3.
-
-[This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our Proof of Concept for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. In this paper, we introduce a new way of comprehending on-chain governance via a cutting-edge 18th century old voting system.
-
-We basically introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
-
-**Root uses a composable voting system inspired by Borda’s Count to compute voting and allow DAO contributors to create preferendums directly linked to the governance pallets. This computational voting system is at the core of Root’s decision-making platform.**
-
-- As DAO participant on Root, I can create alternatives to a proposal’s subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
-
-- Root also allows for making elections more representative of the participants’ preferences.
-
-We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
-
-Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposal to referendum.
-
-We built this little governance game for collaborative creativity, decision making and recruitment for teams who want to innovate and build novel Substrate applications.
+By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
 ### Ecosystem Fit
 
-The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains.
+The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network] - a Kusama parachain.  
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
@@ -122,7 +127,9 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
 
-We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
+We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. 
+
+Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
 
 ## Team :busts_in_silhouette:
 
@@ -132,8 +139,8 @@ We want to fix these issues by leveraging engagement through the whole proposal 
 - PM: David Germanowicz
 - Substrate + JS full-stack dev: Matthiew M23.
 
-**Supervisor, facilitator:** 
-- Richchard Welsh from Decent Partners
+**Network Services:** 
+- Richard Welsh from [Decent Partners](https://decent.partners)
 
 ### Contact
 
@@ -264,15 +271,5 @@ You can find more information about the program [here](../README.md#moneybag-ref
 
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
-For the past few months, Stated has been focusing on governance throughout DotSama and researching on developing a new proposal system to improve low-level consensuses for teams who want to participate in on-chain governance programs.
 
-We've already spent several weeks working on this field and came up with this ggdoc hack to show DotSama what we would like to achieve.
 
-Link to preferendum: https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing
-We’re planning to set up our first vote on Discord thanks to our native bot called boot. Boot is basically our storefront to push our logic on any UI (text editor, chat, or any publication platform).
-
-Voting will happen here: https://discord.gg/RA2FFZuRmz
-
-Link to Boot’s code: https://github.com/stated-tech/root/blob/main/Boot.js
-
-The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
