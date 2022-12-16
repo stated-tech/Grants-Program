@@ -247,7 +247,7 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 | 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
 | 1. | Substrate module: Identity | In the *real* world, creating a preferendum or joining a team has a impact on your identity. We would like to explore more tokengating possibilities with this logic so that is can give permissions to discord/telegram/element channels etc.  |
 | 2. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
-| 3. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Boot |
+| 3. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Boot, will be linked with proxy pallet (to assume that we can use functions only we are on the proxy) |
 | 4. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. |
 | 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
 
