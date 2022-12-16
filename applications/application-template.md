@@ -234,12 +234,15 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
-| 1. | Substrate module: preferundum | This pallet will contains the preferundum's logic. Create a preferendum, join a team, add question/possibility, and vote |
-| 2. | Substrate module: Proxy | We will use the proxy pallet to create team, this will have to be linked with the previous pallet |
+| 1. | Module: Boot | In whatever UI, you can first create your preferundum through a command. First, you will get a NFT from Kilt to prove your identity. You will give you the right to come in the channel. Boot will store the information of preferundum on IPFS (question of the preferundum, subjects, possibilities and quorum). Then will put the hash on-chain through the pallet preferundum. By creating it, a proxy pallet will be used to create team. 
+In whatever UI, you can join (if the proxy is not full), you will get a NFT kilt that allows you to joint channel and proxy. 
+In whatever UI, you can aswell list all preferundum. When you use the command, Boot will get back the hash of all, and get back the text of IPFS and then display it to you.
+In whatever UI, you can too create a question, add a possibility. Boot will store it on IFPS, add it on chain and then display it in all  UI.
+In whatever UI, you can edit what you wrote. The logic is the same, and then it is referesh in every UI.
+The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet, and dispatch your 100 Edg wherever you want. When the quorum decide, the vote stop and result is display. |
+| 2. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
 | 3. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are lock until the end of the vote. Every one will have the right to vote with the same number of tokens, like 100 Edg. |
-| 4. | Boot v2 | Integration of IPFS for text / command to call, create, add, edit everything, display all that in Discord (and probably telegram and every application we want) + vreation of forms that enables to vote when the quorum decided it: this is our front end |
-| 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, |
-| 6. | Identity | TBD
+| 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
 
 ## Future Plans
 
