@@ -201,6 +201,8 @@ This section should break the development roadmap down into milestones and deliv
 
 Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We _recommend_ that teams structure their roadmap as 1 milestone ≈ 1 month.
 
+![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic.png)
+
 ### Overview
 
 - **Total Estimated Duration:** 3 months
