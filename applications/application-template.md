@@ -211,9 +211,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 | 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums | done |
 | 1. | Boot.js | This repo will be treating both our console-like front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote |
 | 2. | Discord | We will do Discord Moderation and boot maintainance on Discord |
-| 3. | Telegram | Preferendum integration and maintainance. |
-| 4. | Element | Preferendum integration and maintainance. |
-| 5. | Twitter | We will post updated on Twitter and eventually push boot on Twitter as well |
+| 3. | Telegram | Preferendum integration and maintainance (depending on demand). |
+| 4. | Element | Preferendum integration and maintainance. (depending on demand) |
+| 5. | Twitter | Preferendum integration and maintainance. (depending on demand) |
 | 6. | Roadmap maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
 | 7. | Hosting | Bot real time hosting and version control |
 
@@ -243,12 +243,13 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 
 ## Future Plans
 
+Once we've deployed preferendums with proxies, we're planning to use Root's pallets to enhance treasury mechanisms and eventually develop our logic on several parachains as a standardized governance process. 
 
+As a Network Public, Root's goal is to become a sovereign network focused on delivering Public Services related to governance and acting as a laboratory for the DotSama ecosystem. We're thus planning to develop several types of preferendums and treasury mechanisms to act as a GaaS network (Governance as a Service).
 
-Please include here
+We're also planning to develop Root as a part of a broader ecosystem of publishing platforms inspired by the RMRK's architecture based on text nfts to enhance user experience and identity, as well as a publishing data ownership mechanism.
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+This roadmap is explained further [here](http://www.stated.tech/).
 
 ## Referral Program (optional) :moneybag: 
 
