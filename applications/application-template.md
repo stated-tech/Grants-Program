@@ -122,8 +122,7 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
 
-We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
-
+We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. We want to unlock governance onboarding from whatever web2 platform and put it directly on-chain by using any text environment (Discord, Telegram, Element, GoogleDocs, etc) to interact with the blockchain. Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
 
 ## Team :busts_in_silhouette:
 
