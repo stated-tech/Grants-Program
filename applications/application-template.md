@@ -197,9 +197,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ### Milestone 1 Proof-Of-Concept — Boot 10k
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 2 month
 - **FTE:**  2
-- **Costs:** 10,000 USD
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -220,9 +220,9 @@ Below we provide an **example roadmap**. In the descriptions, it should be clear
 
 ### Milestone 2 MVP: Root - Governance as a Service 20k
 
-- **Estimated duration:** 2 month
+- **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 20,000 USD
+- **Costs:** 10,000 USD
 
 Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run nodes efficiently.
 
