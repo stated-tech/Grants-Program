@@ -13,7 +13,7 @@ We want to realise the potential of on-chain governance by enabling proposals an
 
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
 
-We built this ggdoc hack to demonstrate what we would like to achieve.
+We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve.
 
 The project has been discussed in the Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18) and within the [Edgeware](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) community. 
 
