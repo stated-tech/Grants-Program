@@ -23,7 +23,7 @@ Root is built around a collective creation and decision making system that uses 
 
 > The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
 
-Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM and instantiate a [shokunin style(https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
+Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM and instantiate a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
 
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
 
@@ -102,7 +102,7 @@ We’re planning to set up our first vote on Discord thanks to our native bot ca
 
 Voting will happen on [Discord](https://discord.gg/RA2FFZuRmz) here: 
 
-Link to Boot’s code: https://github.com/stated-tech/root/blob/main/Boot.js
+Link to Boot’s code: https://github.com/stated-tech/boot
 
 The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
 
@@ -110,7 +110,7 @@ By pushing in exactly the opposite direction to form creation and data standardi
 
 ### Ecosystem Fit
 
-The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network] - a Kusama parachain.  
+The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network) - a Kusama parachain.  
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
