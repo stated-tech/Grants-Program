@@ -1,4 +1,4 @@
-# Root - an on-chain decision-making, talent sourcing and fellowship creation system
+# Root - an on-chain decision-making, talent sourcing and collective creation system
 
 
 - **Team Name:** stated.tech
