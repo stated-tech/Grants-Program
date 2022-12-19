@@ -1,4 +1,4 @@
-# Root - an on-chain decision-making, talent recruitment and collective formation system
+# Root - an on-chain decision-making, talent sourcing and fellowship creation system
 
 
 - **Team Name:** stated.tech
@@ -7,29 +7,29 @@
 
 ## Project Overview :page_facing_up:
 
-Root is a Substrate based decision making system that aims to plant composable proposals to grow decentralised teams from the ground up and is an entirely new way of approaching on-chain governance via a cutting-edge 18th century voting system.
+Root aims to tackle current issues with on-chain governance - low voter participation, lack of oversight and siloed knowledge, through a fun, collaborative and educational process that plants composable proposals (preferendums) that are nurtured by network contributors to grow decentralised teams from the ground up. 
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through any text environment (Discord, Telegram, Element, GoogleDocs, etc) that is then interacts directly on-chain, showing the power of graph queries to CRUD data from any API directly from/to the blockchain.
 
-Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
-
-We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve.
-
-The project has been discussed in the Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18) and within the [Edgeware](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) community. 
+The system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
 
 ### Overview
 
-Root is born from experience gained in ongoing applied contribution to on-chain governed networks such as Edgeware and aims to address many of the current limitations of existing approaches facing Substrate, Kusama and Polkadot, when it comes to existing issues around voting engagement, ecosystem talent development and the formation of effective, efficient and reputable on-chain organisations.  
+Root is born from experience gained in ongoing applied contribution to on-chain governed networks such as Edgeware and aims to address many of the current limitations of existing approaches facing Substrate based chains, when it comes to existing issues around voting engagement, ecosystem talent development and the formation of effective, efficient and reputable on-chain organisations.  
 
-By returning to first principles we aim to standardize proposal making processes for the Substrate ecosystem, optimising for _intelligent adoption_ rather than simply gamifying governance in a way that may create unintended and undesirable outcomes. 
+By returning to first principles we aim to standardize proposal making processes for the Substrate ecosystem, optimising for _intelligent adoption_ rather than simply gamifying governance in a way that may create unintended and undesirable outcomes over the long term. 
 
 Root is built around a collective creation and decision making system that uses a composable voting system inspired by Borda Count to compute voting and allow contributors to create _preferendums_ drectly linked to governance pallets.
 
 > The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
 
-Root’s purpose is to make on-chain governance fun, participatory and ultimately smarter. 
+Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM and instantiate a [shokunin style(https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
 
-Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM. If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
+Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
+
+We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve.
+
+If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
 
 ### Project Details
 
@@ -116,7 +116,7 @@ As DotSama contributors, we've been spending this year watching teams growing an
 
 We thus identified few major issues that need to be solved ASAP in order to fix DotSama's governance. Indeed, the current centralization in decision making processes within blockchain ecosystems results in:
 
-- Lack of communication between voters and proposal makers
+- Lack of communication between voters and proposal makers ensures knowledge and experience is siloed
 
 - Lack of cooperation between curators, facilitators, building teams and voters
 
@@ -175,6 +175,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
+- 
 
 ## Development Status :open_book:
 
@@ -189,6 +190,7 @@ This “console” will be based on two pallets that we have currently began to 
 The data you put on the console won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
 
 We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
+
 With our console, it will be the same. We could display it everywhere, discord, telegram etc.
 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
@@ -269,9 +271,12 @@ You can find more information about the program [here](../README.md#moneybag-ref
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+The project has been discussed in the Polkadot Forum [posts](https://forum.polkadot.network/t/a-better-treasury-system/291/18) and within the [Edgeware](https://gov.edgewa.re/discussion/7887-proposal-root-the-evolution-of-onchain-governance) community. 
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
+**How did you hear about the Grants Program?** 
+
+Being an active part of the Substrate ecosystem. 
+
 
 
 
