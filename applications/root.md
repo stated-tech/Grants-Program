@@ -194,7 +194,7 @@ With our console, it will be the same. We could display it everywhere, discord, 
 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
 
-![Root Principles](https://github.com/stated-tech/Grants-Program/blob/master/Root%20principles.png)
+![Root Principles](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
 
 ![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic.png)
 
