@@ -234,7 +234,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 | 7. | Hosting | Bot real time hosting and version control |
 
 
-### Milestone 2 - MVP: Boot - Governance as a Service - 10k
+### Milestone 2 - Boot - GUI - 10k
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
