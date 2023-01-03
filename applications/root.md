@@ -268,7 +268,8 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Research | We will continue conducting our research on GraphQL and different ways of implementing Root in a Graph, in ancicipation for Plume (see Future Plans). |
-| 1. | Substrate module: Graph | As a publishing plateform, we will put the data in a graph to allow anyone to use it. This is the first step of Plume, our nested NFT publications as it enables to link all the data throught whatever dapp on Plume.   |
+| 1. | Substrate module: Graph | As a publishing plateform, we will put the data in a graph to allow anyone to use it. This is the first step of implementation for Plume, our nested NFT publications platform as it enables to link all the data throught whatever dapp on this network (social media, governance, text editing and many more). Allowing users to CRUD data from whatever UI will enable communities to strenghten their sense of belonging in a comprehensible and user-friendly environment.  |
+| 2. | Major upgrade: Boot 2.0:  | Knowing the fact that Root will use its own Graph, it will enable a playground of possibilities to emerge from Boot. For example, people will be able to invite Boot to their Discord server and interact with it but also to make analytics for their community directly from Discord's UI.   |
 
 
 ## Future Plans
