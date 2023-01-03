@@ -7,11 +7,11 @@
 
 ## Project Overview :page_facing_up:
 
-Root aims to tackle current issues with on-chain governance - low voter participation, lack of oversight and siloed knowledge, through a fun, collaborative and educational process that plants composable proposals (preferendums) that are nurtured by network contributors to grow decentralised teams from the ground up. 
+Root is a common good initiative which aims to tackle current issues with on-chain governance - low voter participation, lack of oversight and siloed knowledge, through a fun, collaborative and educational process that plants composable proposals (preferendums) that are nurtured by network contributors to grow decentralised teams from the ground up. 
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through any text environment (Discord, Telegram, Element, GoogleDocs, etc) that is then interacts directly on-chain, showing the power of graph queries to CRUD data from any API directly from/to the blockchain.
 
-The system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
+The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
 
 ### Overview
 
@@ -52,11 +52,11 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Solution: we need simpler mobile app UX/UI w/ swipe / notifications**
 
-Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
-
-Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
-
-So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives beyond the scope of this grant). 
+>Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
+>
+>Other projects such as [Proof of Chaos](https://www.proofofchaos.app/) also aim to create incentive systems for encouraging voters - an idea that’s both brilliant in its simplicity, but also potentially dangerous in its current design… e.g. you earn an NFT for voting, but that NFT is not necessarily non-transferable, and so might be tradeable, which leans into the emergence of financial incentives which abstract away the actual ‘vote’ as the purpose of the interaction, ultimately making the system dumber over time.
+>
+>So yes we want to get people to swipe easily, but we also need to make proposals more engaging, so people will stop and read / listen / watch and make decisions in a proactive way - delegating their intelligence, as well as their vote. When seen this way, we can also understand voter participation as an entertainment problem, (something that will be addressed in other upcoming initiatives beyond the scope of this grant). 
 
 - **Problem 2: no standardisation of proposal data**
 
@@ -64,14 +64,14 @@ So yes we want to get people to swipe easily, but we also need to make proposals
 
   - **Solution: proposal forms**
 
-The standardising of data inputs - is something the Edgeware community have debated endlessly, since there is no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
-
-The issues of no standardisation:
-
-- For proposers: a blank sheet of paper is harder to fill out than a few boxes which trends towards proposer apathy / missing info / administrative time suck.
-- For voters: it makes comparison hard when comparing two proposals on a like for like basis this effects voter engagement, participation and confuses overall sentiment.
-
-A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
+>The standardising of data inputs - is something the Edgeware community have debated endlessly, since there is no lack of proposals, but a lack of data standardisation causes issues nonetheless, with everyone essentially starting from a blank sheet of paper and creating their own documents and structures leading to arguments and circular debates.
+>
+>The issues of no standardisation:
+>
+>- For proposers: a blank sheet of paper is harder to fill out than a few boxes which trends towards proposer apathy / missing info / administrative time suck.
+>- For voters: it makes comparison hard when comparing two proposals on a like for like basis this effects voter engagement, participation and confuses overall sentiment.
+>
+>A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
 
 **Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
 
@@ -100,13 +100,13 @@ We can see how from these initial foundations we are on a path to solving issues
 
 We’re planning to set up our first vote on Discord thanks to our native bot called boot. Boot is basically our storefront to push our logic on any UI (text editor, chat, or any publication platform).
 
-Voting will happen on [Discord](https://discord.gg/RA2FFZuRmz) here: 
+Voting will happen on [Discord](https://discord.gg/RA2FFZuRmz). 
 
 Link to Boot’s code: https://github.com/stated-tech/boot
 
-The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot javascript that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
+The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
 
-By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
+>By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
 ### Ecosystem Fit
 
@@ -129,7 +129,7 @@ Which leads to a lack of engagement from contributors, and billion dollars econo
 
 We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. 
 
-Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain.
+Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain from/to any live environment.
 
 ## Team :busts_in_silhouette:
 
@@ -201,6 +201,9 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ## Development Roadmap :nut_and_bolt:
 
+1. Proof-Of-Concept
+2. User Interface
+3. Governance as a Service
 
 ### Overview
 
@@ -208,11 +211,11 @@ The code of the preferundum pallet is available in our github ; we are developin
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 30 000 USD
 
-### Milestone 1 Proof-Of-Concept — Boot 10k
+### Milestone 1 - Proof-Of-Concept — Boot - 10k
 
-- **Estimated Duration:** 2 month
+- **Estimated Duration:** 1 month
 - **FTE:**  2
-- **Costs:** 20,000 USD
+- **Costs:** 10,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -231,7 +234,29 @@ The code of the preferundum pallet is available in our github ; we are developin
 | 7. | Hosting | Bot real time hosting and version control |
 
 
-### Milestone 2 MVP: Root - Governance as a Service 20k
+### Milestone 2 - MVP: Boot - Governance as a Service - 10k
+
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 10,000 USD
+
+Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run nodes efficiently.
+
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | TBD |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create a preferundum, edit one, add possibility, vote, participate in the proxy |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
+| 1. | Substrate module: Identity | In the *real* world, creating a preferendum or joining a team has a impact on your identity. We would like to explore more tokengating possibilities with this logic so that is can give permissions to discord/telegram/element channels etc.  |
+| 2. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
+| 3. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Boot, will be linked with proxy pallet (to assume that we can use functions only we are on the proxy) |
+| 4. | Substrate module: lock function | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. |
+| 5. | Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
+
+### Milestone 3 - MVP: Root - Governance as a Service - 10k
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -255,7 +280,7 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 
 ## Future Plans
 
-Once we've deployed preferendums with proxies, we're planning to use Root's pallets to enhance treasury mechanisms and eventually develop our logic on several parachains as a standardized governance process. 
+Once we've deployed preferendums with proxies, we're planning to use Root's pallets to enhance treasury mechanisms and eventually develop our logic on several parachains as a standardized governance process. We would most likely use parathreads to deploy our logic seemlessly while remaining a **common good experiment**.
 
 As a Network Public, Root's goal is to become a sovereign network focused on delivering Public Services related to governance and acting as a laboratory for the DotSama ecosystem. We're thus planning to develop several types of preferendums and treasury mechanisms to act as a GaaS network (Governance as a Service).
 
