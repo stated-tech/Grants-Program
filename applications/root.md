@@ -202,8 +202,8 @@ The code of the preferundum pallet is available in our github ; we are developin
 ## Development Roadmap :nut_and_bolt:
 
 - Milestone 1. Proof-Of-Concept
-- Milestone 2. User Interface
-- Milestone 3. Governance as a Service
+- Milestone 2. User Multi-Interface
+- Milestone 3. MVP - Governance as a Service
 
 ### Overview
 
@@ -239,9 +239,6 @@ The code of the preferundum pallet is available in our github ; we are developin
 - **Estimated duration:** 1 month
 - **FTE:**  2
 - **Costs:** 10,000 USD
-
-Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run nodes efficiently.
-
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
