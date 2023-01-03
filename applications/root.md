@@ -201,9 +201,9 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ## Development Roadmap :nut_and_bolt:
 
-1. Proof-Of-Concept
-2. User Interface
-3. Governance as a Service
+- Milestone 1. Proof-Of-Concept
+- Milestone 2. User Interface
+- Milestone 3. Governance as a Service
 
 ### Overview
 
