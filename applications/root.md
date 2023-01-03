@@ -202,7 +202,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ![Root Design](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
 
-![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic.png)
+![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic%20(1).png)
 
 
 ### Overview
