@@ -268,7 +268,7 @@ Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run 
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Research | We will continue conducting our research on GraphQL and different ways of implementing Root in a Graph, in ancicipation for Plume (see Future Plans). |
-| 1. | Substrate module: Graph | TBD  |
+| 1. | Substrate module: Graph | As a publishing plateform, we will put the data in a graph to allow anyone to use it. This is the first step of Plume, our nested NFT publications as it enables to link all the data throught whatever dapp on Plume.   |
 
 
 ## Future Plans
