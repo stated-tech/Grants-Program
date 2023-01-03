@@ -175,7 +175,6 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
-- 
 
 ## Development Status :open_book:
 
@@ -211,7 +210,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 30 000 USD
 
-### Milestone 1 - Proof-Of-Concept — Boot - 10k
+### Milestone 1 - Proof-Of-Concept — Root - 10k
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2
