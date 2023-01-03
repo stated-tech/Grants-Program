@@ -108,6 +108,10 @@ The preferundum pallet has been begun, we need to continue it with the lock logi
 
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
+![Root Design](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
+
+![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic%20(1).png)
+
 ### Ecosystem Fit
 
 The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network) - a Kusama parachain.  
@@ -199,11 +203,6 @@ The code of the preferundum pallet is available in our github ; we are developin
 - Milestone 1. Proof-Of-Concept
 - Milestone 2. User Multi-Interface
 - Milestone 3. MVP - Governance as a Service
-
-![Root Design](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
-
-![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic%20(1).png)
-
 
 ### Overview
 
