@@ -1,7 +1,7 @@
 # Root - an on-chain decision-making, talent sourcing and collective creation system
 
 
-- **Team Name:** stated.tech
+- **Team Name:** [stated.tech](stated-tech.notion.site/) / [Decent Partners](https://decent.partners)
 - **Payment Address:** mpbXzMgPFbKmXkb6Z6rHK7n6s1gfLJAj9f6rkLdpRjXPX5N
 - **[Level]2**
 
@@ -148,20 +148,22 @@ Our assumption is that we don't need an explicit UI to deploy our app as it can 
 
 ### Contact
 
-- **Contact Name:** stated.tech
-- **Contact Email:** stated.tech@proton.me
-- **Website:** http://www.stated.tech/
+- **Contact Name:** stated.tech / decent partners
+- **Contact Email:** stated.tech@proton.me / richard@decent.partners
+- **Website:** http://www.stated.tech/ & https://decent.partners
 
 ### Legal Structure
 
-- **Registered Address:** TBD
-- **Registered Legal Entity:** TBD
+- **Registered Address:** The Old Casino, 28 Fourth Avenue, Hove, East Sussex, United Kingdom, BN3 2PJ
+- **Registered Legal Entity:** Decent Partners Ltd
 
 ### Team's experience
 
 MatthiewM is a JS full-stack developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
 
 David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
+
+Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor. 
 
 ### Team Code Repos
 
@@ -175,10 +177,13 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/Matthiewm23
 
+- https://github.com/monsieurbulb
+
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
+- https://www.linkedin.com/in/rfwelsh/
 
 ## Development Status :open_book:
 
