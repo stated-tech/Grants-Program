@@ -2,7 +2,7 @@
 
 
 - **Team Name:** [stated.tech](stated-tech.notion.site/) / [Decent Partners](https://decent.partners)
-- **Payment Address:** mpbXzMgPFbKmXkb6Z6rHK7n6s1gfLJAj9f6rkLdpRjXPX5N
+- **Payment Address:** 0xdf08f8fcd47d857b9e4ce69e06bf6e569969b229 (USDC)
 - **[Level]2**
 
 ## Project Overview :page_facing_up:
