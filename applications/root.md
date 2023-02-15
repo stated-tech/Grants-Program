@@ -9,7 +9,7 @@
 
 Root is a common good initiative which aims to tackle current issues with on-chain governance - low voter participation, lack of oversight and siloed knowledge, through a fun, collaborative and educational process that plants composable proposals (preferendums) that are nurtured by network contributors to grow decentralised teams from the ground up. 
 
-We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through any text environment (Discord, Telegram, Element, GoogleDocs, etc) that is then interacts directly on-chain, showing the power of graph queries to CRUD data from any API directly from/to the blockchain.
+We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through our protocol that interacts directly on-chain, showing the power of "console-like" queries to CRUD proposals from IPFS directly to the blockchain.
 
 The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
 
@@ -89,7 +89,7 @@ We introduce a **weighted voting system** to help people participate in on-chain
 
 - *As a proposer*, I can create a **draft** with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
 
-- *As a participant*, I can create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
+- *As a participant*, I can join an optimistic project, create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
 Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves.
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
@@ -98,13 +98,7 @@ It also starts to solve other issues - namely, information asymmetry between vot
 
 We can see how from these initial foundations we are on a path to solving issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
-We’re planning to set up our first vote on Discord thanks to our native bot called boot. Boot is basically our storefront to push our logic on any UI (text editor, chat, or any publication platform).
-
-Voting will happen on [Discord](https://discord.gg/RA2FFZuRmz). 
-
-Link to Boot’s code: https://github.com/stated-tech/boot
-
-The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full bot that will link the command, the proxy, IPFS, the pallet and displays on Telegram/Discord.
+The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full interfact that will link the command, the proxy, IPFS, the pallet and displays on our UI.
 
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
@@ -114,7 +108,7 @@ The preferundum pallet has been begun, we need to continue it with the lock logi
 
 ### Ecosystem Fit
 
-The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network) - a Kusama parachain.  
+The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network) - a Kusama parachain. We will then focus on parachain deployment by proposing to integrate our pallet to existing parachains' runtime.
 
 As DotSama contributors, we've been spending this year watching teams growing and evolving into parachain owners within a federated network.
 
@@ -133,7 +127,7 @@ Which leads to a lack of engagement from contributors, and billion dollars econo
 
 We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. 
 
-Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our bot. This way, we will show the power of graph queries to CRUD data from any API directly from/to the blockchain from/to any live environment.
+Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our protocol.
 
 ## Team :busts_in_silhouette:
 
@@ -159,9 +153,9 @@ Our assumption is that we don't need an explicit UI to deploy our app as it can 
 
 ### Team's experience
 
-MatthiewM is a JS full-stack developer and rust (substrate) developer. He originally was a physics engineer. He will be participating in the Polkadot Academy in Jannuary 2022 for one month in Buenos Aires.
+MatthiewM is a rust (substrate) developer. He originally was a physics engineer. He participated in the Polkadot Academy in Jannuary 2022 in Buenos Aires.
 
-David has a background in the Social Sharing Economy as an Impact Fintech Founder. He originally was Product Manager for an AI powered financial product.
+David has a background in the Social Sharing Economy as an Impact Fintech Founder. Gratuated from the EDHEC Business School (top 10 BS in Europe - Financial Ttimes), he originally was Product Manager for an AI powered financial product. David is also preparing a Ph.D. thesis in blockchain governance (corporate finance) at La Sorbonne (ESCP Business School) in Paris.
 
 Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor. 
 
@@ -169,13 +163,13 @@ Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain
 
 - https://github.com/stated-tech
 
-You can find in this github the code of our bot linking google doc/discord. An exemple of a google template is : https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/. 
-
 You can find aswell the beginning of the pallet preferundum. 
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
 - https://github.com/Matthiewm23
+
+- https://github.com/davyjones25
 
 - https://github.com/monsieurbulb
 
@@ -187,11 +181,9 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-We imagined to develop preferundum on-chain with a “console like” front end using graphQL. You will be able to call current preferundum, to list all preferundums, to make your own one, to add possibilities to those in progress and of course to vote. Everything will be able with your identity that you will get from kilt when you join the proxy. 
+Our interface will be based on two pallets that we have currently began to work on.
 
-This “console” will be based on two pallets that we have currently began to work on.
-
-- The first used is the pallet proxy, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
+- The first used is the proxy pallet, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
 
 - The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
 
@@ -199,15 +191,14 @@ The data you put on the console won’t be stored in the blockchain to avoid a f
 
 We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
 
-With our console, it will be the same. We could display it everywhere, discord, telegram etc.
+With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and use these platforms as storage solutions.
 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
 
 ## Development Roadmap :nut_and_bolt:
 
-- Milestone 1. Proof-Of-Concept
-- Milestone 2. User Multi-Interface
-- Milestone 3. MVP - Governance as a Service
+- Milestone 1. Back-End
+- Milestone 2. Front-End
 
 ### Overview
 
@@ -215,11 +206,11 @@ The code of the preferundum pallet is available in our github ; we are developin
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 30 000 USD
 
-### Milestone 1 - Proof-Of-Concept — Root - 10k
+### Milestone 1 - Back-End — Root - 20k
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2
-- **Costs:** 10,000 USD
+- **Costs:** 20,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -228,13 +219,12 @@ The code of the preferundum pallet is available in our github ; we are developin
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
-| 1. | Substrate module: KILT DiD | In the *real* world, creating a preferendum or joining a team has a impact on your identity. We would like to explore more tokengating possibilities with this logic so that is can give permissions to discord/telegram/element channels etc.  |
-| 2. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
-| 3. | Proxy module: Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
-| 4. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Boot, will be linked with proxy pallet (to assume that we can use functions only we are on the proxy) |
-| 5. | Substrate module: Vote | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. |
+| 1. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
+| 2. | Proxy module: Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
+| 3. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Milestone 2. It will be linked to proxy pallet |
+| 4. | Substrate module: Vote | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. We also will allow democratic voting by giving each member of the proxy the same amount of token to lock (optional).|
 
-### Milestone 2 - Boot - GUI - 10k
+### Milestone 2 - Front-End - 10k
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -248,34 +238,9 @@ The code of the preferundum pallet is available in our github ; we are developin
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
 | 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums | done |
-| 1. | Module: Boot.js | This repo will be treating both our **console-like** front-end for preferendums and eventually our UI. Create a preferendum, join a team, add question/possibility, and vote. From whatever UI, you can first create your preferundum through a command. First, you will prove your identity by **tokengating** your wallet. Which will give you the right to come in the channel. Boot will store the information of preferundums on IPFS (question of the preferundum, subjects, alternatives and quorum). Then will put the hash on-chain through the pallet preferundum. By creating it, a **proxy** pallet will be used to create team. In whatever UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. In whatever UI, you can also **list** all preferundums alive. When you use the command, Boot will get back the hash of all, and get back the text of IPFS and then display it to you. In whatever UI, you can also create an alternative (subproposal), add a possibility. Boot will store it on IFPS, add it on chain and then display it in every UI. In whatever UI, you can **edit** what you wrote. The logic is the same, and then it is referesh in every UI. The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet. When the quorum decide, the vote stop and the result is displayed. |
-| 2. | Discord | We will do Discord Moderation and boot maintainance on Discord |
-| 3. | Telegram | Preferendum integration and maintainance (depending on demand). |
-| 4. | Element | Preferendum integration and maintainance. (depending on demand) |
-| 5. | Twitter | Preferendum integration and maintainance. (depending on demand) |
-| 6. | Roadmap updates, maintainance and development | Through Twitter, Discord, Telegram, Element, website and Trello |
-| 7. | Hosting | Bot real time hosting and version control via Phat Contracts written with ink!. |
-
-
-### Milestone 3 - MVP: Root - Governance as a Service - 10k
-
-- **Estimated duration:** 1 month
-- **FTE:**  2
-- **Costs:** 10,000 USD
-
-Our team will need an adapted computer (8 cores, 8 to 16Go RAM, 1To SSD) to run nodes efficiently.
-
-
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | TBD |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create a preferundum, edit one, add possibility, vote, participate in the proxy |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Research | We will continue conducting our research on GraphQL and different ways of implementing Root in a Graph, in ancicipation for Plume (see Future Plans). |
-| 1. | Substrate module: Graph | As a publishing plateform, we will put the data in a graph to allow anyone to use it. This is the first step of implementation for Plume, our nested NFT publications platform as it enables to link all the data throught whatever dapp on this network (social media, governance, text editing and many more). Allowing users to CRUD data from whatever UI will enable communities to strenghten their sense of belonging in a comprehensible and user-friendly environment.  |
-| 2. | Major upgrade: Boot 2.0:  | Knowing the fact that Root will use its own Graph, it will enable a playground of possibilities to emerge from Boot. For example, people will be able to invite Boot to their Discord server and interact with it but also to make analytics for their community directly from Discord's UI.   |
-
+| 1. | Module: Root.js | This repo will be treating our **console-like** front-end for preferendums. Create a preferendum, join a team, add question/possibility, and vote. From this website, you can first create your preferundum. Quorum is then requested to accept your request (or not), which will give you the right to enter the channel and participate in the preferendum. Root will store the information of preferundums on IPFS (question of the preferundum, subjects and their alternatives). Then will put the hash on-chain through the pallet preferundum. By creating it, a **proxy** pallet will be used to create team. Through this UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. In whatever UI, you can also **list** all preferundums alive. When you use the command, Root will get back the hash of all, and get back the text of IPFS and then display it to you. In whatever UI, you can also create an alternative (subproposal), add a possibility. Boot will store it on IFPS, add it on chain and then display it in every UI. In whatever UI, you can **edit** what you wrote. The logic is the same, and then it is referesh in every UI. The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet. When the quorum decide, the vote stop and the result is displayed. |
+| 6. | Roadmap updates, maintainance and development | Social Media updates, roadmap follow up via Trello |
+| 7. | Hosting | UI hosting |
 
 ## Future Plans
 
