@@ -153,9 +153,7 @@ We want to fix these issues by leveraging engagement through the whole proposal 
 **Lead team**
 - PM: David Germanowicz
 - Substrate dev: Matthiew M23
-
-**Front-End team**
-- [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
+- Front-End Team: [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
 
 **Advisors**
 - Jam from [Shokunin Network](https://shokunin.network/)
