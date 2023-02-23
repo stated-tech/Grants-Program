@@ -79,6 +79,20 @@ This leads to proposals taking far longer, teams being paid far less, whilst vot
 
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
 
+**Is there another way?**
+
+When we begin with a basic idea that no proposal put forward is final, or correct, or cannot be improved, then we begin to design different systems, optimising for advancing coherence between proposers and also voters. who we should aim to move towards contributors and even co-creators of proposals.
+
+By beginning with an outcome we are designing towards, we begin to see the problems differently and this has two primary effects on the way we imagine and design these systems:
+
+*We take the **pressure off** people to write great proposals to convince voters.*
+
+Currently we are headed towards ever longer documents, associated materials, references, spreadsheets, colourful language and big promises that adds to the administrative burden on everyone and further reduces voter / proposer participation and makes the whole process into something that optimises for a certain type of specialist proposal writer.
+
+*We move the system away from binaries - proposers / voters who end up in an adversarial relationship, and towards outcomes that prioritise **collective endeavours**.*
+
+This is perhaps a radical, but obvious approach, that aims to optimise once again for a larger aim, than simply engineering away the symptoms of much bigger issues.
+
 ### How Root works 
 
 We introduce a **weighted/ranked voting system** to help people participate in on-chain governance equally, no matter how many tokens they hold. 
@@ -102,6 +116,9 @@ We can see how from these initial foundations we are on a path to solving issues
 The preferundum pallet development has begun, we need to continue it with the proxy logic. Then, we will create a full interface that will interact with the pallets, the proxies, the IPFS storage.
 
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
+
+If we can drive forward more **nuanced and interactive decision making**, that leads to more imaginative proposals that enable us to **share financial value and credit more fairly across a group** with delegations, we can then begin to see this whole process as the pre-formation process for **talent sourcing** and the setup of fluid and optimistic **on-chain organisational structures** like [shokunin’s patronage proxies](https://patronage.shokunin.network/).
+
 
 ### Root Design
 
