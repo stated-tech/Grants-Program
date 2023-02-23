@@ -140,7 +140,7 @@ We thus identified few major issues that need to be solved ASAP in order to fix 
 - Lack of composability in the proposal-making process
 (I can agree to the general proposal but not to a specific part of it)
 
-- Lack of connections to on-chain treasuries
+- Lack of connections from publishing platforms to on-chain treasuries
 
 Which leads to a lack of engagement from contributors, and billion dollars economies managed by arbitrage bots.
 
