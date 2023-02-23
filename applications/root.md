@@ -3,7 +3,7 @@
 
 - **Team Name:** [stated.tech](stated-tech.notion.site/) / [Decent Partners](https://decent.partners)
 - **Payment Address:** 0xdf08f8fcd47d857b9e4ce69e06bf6e569969b229 (USDC)
-- **[Level]2**
+- **[Level]3**
 
 ## Project Overview :page_facing_up:
 
@@ -11,7 +11,7 @@ Root is a common good initiative which aims to tackle current issues with on-cha
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through our protocol that interacts directly on-chain, showing the power of "console-like" queries to CRUD proposals from IPFS directly to the blockchain.
 
-The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). 
+The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use the Mofified version of Borda's Count (MBC) to be more democratic.
 
 ### Overview
 
@@ -23,13 +23,11 @@ Root is built around a collective creation and decision making system that uses 
 
 > The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
 
-Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via XCM and instantiate a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
+Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin and instantiate a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
 
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
 
-We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve.
-
-If this experiment is a success, we would continue providing innovations for enhancing governance processes for Substrate.
+We built this [ggdoc hack](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) to demonstrate what we would like to achieve. Check out the comments to undestand the logic.
 
 ### Project Details
 
@@ -50,7 +48,7 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Outcome: there is low voter participation**
 
-  - **Solution: we need simpler mobile app UX/UI w/ swipe / notifications**
+  - **Solution: we need simpler UX/UI**
 
 >Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
 >
@@ -83,24 +81,29 @@ If we can drive forward more nuanced and interactive decision making, that leads
 
 ### How Root works 
 
-We introduce a **weighted voting system** to help people participate in on-chain governance equally, no matter how many tokens they have. 
+We introduce a **weighted/ranked voting system** to help people participate in on-chain governance equally, no matter how many tokens they hold. 
 
 [This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our _proof of concept_ Google docs hack for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. 
 
 - *As a proposer*, I can create a **draft** with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
 
-- *As a participant*, I can join an optimistic project, create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
+- *As a participant*, I can join an optimistic org, create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
 
-Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves.
+- Each Optimistic Org is setup with a Quorum that is set up by the proposer and can be changed by voting.
+
+Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
+
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
 
 It also starts to solve other issues - namely, information asymmetry between voters (who are likely more familiar with the core chain/tech/culture) and outsiders, namely those wandering into the lion’s den - with excitement and energy ready to be pummeled out of them…
 
 We can see how from these initial foundations we are on a path to solving issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
-The preferundum pallet has been begun, we need to continue it with the lock logic. Then, we will create a full interfact that will link the command, the proxy, IPFS, the pallet and displays on our UI.
+The preferundum pallet development has begun, we need to continue it with the proxy logic. Then, we will create a full interface that will interact with the pallets, the proxies, the IPFS storage.
 
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
+
+### Root Design
 
 ![Root Design](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
 
@@ -127,24 +130,28 @@ Which leads to a lack of engagement from contributors, and billion dollars econo
 
 We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. 
 
-Our assumption is that we don't need an explicit UI to deploy our app as it can be deployed from any text environment that is connected to the blockchain via our protocol.
-
 ## Team :busts_in_silhouette:
 
 ### Team members
 
 **Lead team**
 - PM: David Germanowicz
-- Substrate + JS full-stack dev: Matthiew M23.
+- Substrate dev: Matthiew M23
+
+**Front-End team**
+- [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
+
+**Advisors**
+- Jam from [Shokunin Network](https://shokunin.network/)
 
 **Network Services:** 
 - Richard Welsh from [Decent Partners](https://decent.partners)
 
 ### Contact
 
-- **Contact Name:** stated.tech / decent partners
-- **Contact Email:** stated.tech@proton.me / richard@decent.partners
-- **Website:** http://www.stated.tech/ & https://decent.partners
+- **Contact Name:** stated.tech / decent partners / polkassembly
+- **Contact Email:** stated.tech@proton.me / richard@decent.partners / hello@polkassembly.io
+- **Website:** http://www.stated.tech/ & https://decent.partners & https://polkassembly.io/
 
 ### Legal Structure
 
@@ -157,7 +164,11 @@ MatthiewM is a rust (substrate) developer. He originally was a physics engineer.
 
 David has a background in the Social Sharing Economy as an Impact Fintech Founder. Gratuated from the EDHEC Business School (top 10 BS in Europe - Financial Ttimes), he originally was Product Manager for an AI powered financial product. David is also preparing a Ph.D. thesis in blockchain governance (corporate finance) at La Sorbonne (ESCP Business School) in Paris.
 
-Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor. 
+Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor.
+
+ADD PA INFOS HERE
+
+Decent Partners, Polkassembly and Stated.Tech are an active part of the Substrate ecosystem by participating in sevevral forum and governance discussions, building cutting-edge experiments and projects that have proven their utility.
 
 ### Team Code Repos
 
@@ -173,11 +184,15 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/monsieurbulb
 
+ADD PA INFOS HERE
+
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
 - https://www.linkedin.com/in/rfwelsh/
+
+ADD PA INFOS HERE
 
 ## Development Status :open_book:
 
@@ -187,11 +202,11 @@ Our interface will be based on two pallets that we have currently began to work 
 
 - The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
 
-The data you put on the console won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
+Data won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
 
 We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
 
-With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and use these platforms as storage solutions.
+With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and even use these platforms as storage solutions like [the Virto team](https://kusama.subsquare.io/treasury/proposal/265) is doing.
 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
 
@@ -204,13 +219,13 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 - **Total Estimated Duration:** 3 months
 - **Full-Time Equivalent (FTE):**  2 FTE
-- **Total Costs:** 30 000 USD
+- **Total Costs:** 90 000 USD
 
-### Milestone 1 - Back-End — Root - 20k
+### Milestone 1 - Back-End — Root - 40k
 
 - **Estimated Duration:** 1 month
 - **FTE:**  2
-- **Costs:** 20,000 USD
+- **Costs:** 40,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -221,14 +236,15 @@ The code of the preferundum pallet is available in our github ; we are developin
 | 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
 | 1. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
 | 2. | Proxy module: Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
-| 3. | Substrate module: Preferundum pallet | The pallet preferundum will host functions described in Milestone 2. It will be linked to proxy pallet |
-| 4. | Substrate module: Vote | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. We also will allow democratic voting by giving each member of the proxy the same amount of token to lock (optional).|
+| 3. | Substrate module: Preferundum | The pallet preferundum will host functions described in Milestone 2. It will be linked to proxy pallet |
+| 4. | Substrate module: Vote | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. We also will allow democratic voting by giving each member of the proxy the same amount of token to lock. This feature can be changed by Quorum.|
+| 5. | Runtime Upgrades | We will deploy our Pallet on Kabocha as a DotSama-native Experimental Playground Parachain. We're confident that our pallet will contribute to the development of several other parachains where we will implement preferendums over time and experience. Our aim is to end developing a version for Kusama and propose it on OpenGov.|
 
-### Milestone 2 - Front-End - 10k
+### Milestone 2 - Front-End - 50k
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
-- **Costs:** 10,000 USD
+- **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -238,13 +254,13 @@ The code of the preferundum pallet is available in our github ; we are developin
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
 | 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums | done |
-| 1. | Module: Root.js | This repo will be treating our **console-like** front-end for preferendums. Create a preferendum, join a team, add question/possibility, and vote. From this website, you can first create your preferundum. Quorum is then requested to accept your request (or not), which will give you the right to enter the channel and participate in the preferendum. Root will store the information of preferundums on IPFS (question of the preferundum, subjects and their alternatives). Then will put the hash on-chain through the pallet preferundum. By creating it, a **proxy** pallet will be used to create team. Through this UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. In whatever UI, you can also **list** all preferundums alive. When you use the command, Root will get back the hash of all, and get back the text of IPFS and then display it to you. In whatever UI, you can also create an alternative (subproposal), add a possibility. Boot will store it on IFPS, add it on chain and then display it in every UI. In whatever UI, you can **edit** what you wrote. The logic is the same, and then it is referesh in every UI. The quorum will decide if we make a vote to choose the good one to send to the preferundum. If there is a vote, a form will be available when you will have to connect to your wallet. When the quorum decide, the vote stop and the result is displayed. |
-| 6. | Roadmap updates, maintainance and development | Social Media updates, roadmap follow up via Trello |
-| 7. | Hosting | UI hosting |
+| 1. | Module: Root.js | This repo will be treating our front-end for preferendums. Create a preferendum, join a team, add subjects and alternatives, and vote. From this website, you can first create your preferundum. Whenever someone new wants to participate, quorum is requested to accept their request (or not), which will give them the right to enter the channel, participate, and vote in the preferendum. Root will store the information of each preferundum on IPFS (question of the preferundum, subjects and their alternatives). Then will put the hash on-chain through the pallet preferundum. Through this UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. You can also access a  **list** of all active and passed/rejected preferundums. Root will get back the hash of all preferendums, and get back the text of IPFS and then display it to the interface. You can also create an alternative (subproposal) and add a new possibility. Root will store it on IFPS, add it on chain and then display it in the UI. |
+| 6. | Roadmap updates | Social Media updates, roadmap follow up via Trello and on our website |
+| 7. | Hosting | UI hosting and maintainance |
 
 ## Future Plans
 
-Once we've deployed preferendums with proxies, we're planning to use Root's pallets to enhance treasury mechanisms and eventually develop our logic on several parachains as a standardized governance process. We would most likely use parathreads to deploy our logic seemlessly while remaining a **common good experiment**.
+Once we've deployed preferendums with proxies, we're planning to use Root pallets to enhance treasury mechanisms and develop our logic on several parachains as a standardized governance process. We would most likely use parathreads to deploy our logic seemlessly while remaining a **common good experiment**.
 
 As a Network Public, Root's goal is to become a sovereign network focused on delivering Public Services related to governance and acting as a laboratory for the DotSama ecosystem. We're thus planning to develop several types of preferendums and treasury mechanisms to act as a GaaS network (Governance as a Service).
 
@@ -264,7 +280,7 @@ The project has been discussed in the Polkadot Forum [posts](https://forum.polka
 
 **How did you hear about the Grants Program?** 
 
-Being an active part of the Substrate ecosystem. 
+All Decent Partners, Polkassembly and Stated.Tech are an active part of the Substrate ecosystem.
 
 
 
