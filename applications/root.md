@@ -151,14 +151,14 @@ We want to fix these issues by leveraging engagement through the whole proposal 
 ### Team members
 
 **Lead team**
-- PM: David Germanowicz
-- Substrate dev: Matthiew M23
-- Front-End Team: [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
+- Product Manager: David Germanowicz
+- Substrate Engineer: Matthiew M23
+- Front-End Engineering Team: [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
 
-**Advisors**
+**Advisor**
 - Jam from [Shokunin Network](https://shokunin.network/)
 
-**Network Services:** 
+**Network Service:** 
 - Richard Welsh from [Decent Partners](https://decent.partners)
 
 ### Contact
