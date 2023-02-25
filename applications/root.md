@@ -237,7 +237,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ### Milestone 1 - Back-End — Root - 40k
 
-- **Estimated Duration:** 1 month
+- **Estimated Duration:** 2.5 month
 - **FTE:**  2
 - **Costs:** 40,000 USD
 
@@ -256,7 +256,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ### Milestone 2 - Front-End - 50k
 
-- **Estimated duration:** 1 month
+- **Estimated duration:** 3 month
 - **FTE:**  2
 - **Costs:** 50,000 USD
 
