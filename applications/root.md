@@ -231,7 +231,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ### Overview
 
-- **Total Estimated Duration:** 3 months
+- **Total Estimated Duration:** 4 months
 - **Full-Time Equivalent (FTE):**  2 FTE
 - **Total Costs:** 90 000 USD
 
@@ -257,7 +257,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 ### Milestone 2 - Front-End - 50k
 
 - **Estimated duration:** 3 month
-- **FTE:**  2
+- **FTE:**  1.5
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
