@@ -247,7 +247,7 @@ We want to fix these issues by leveraging engagement through the whole proposal 
 **Lead team**
 - Product Manager: David Germanowicz
 - Substrate Engineer: Matthiew M23
-- Front-End Engineering Team: [Polkassembly](https://polkassembly.io/) ADD PA INFOS HERE
+- Front-End Engineering Team: [Polkassembly](https://polkassembly.io/)
 
 **Advisor**
 - Jam from [Shokunin Network](https://shokunin.network/)
@@ -272,7 +272,7 @@ MatthiewM is a rust (substrate) developer. He originally was a physics engineer.
 
 David has a background in the Social Sharing Economy as an Impact Fintech Founder. Gratuated from the EDHEC Business School (top 10 BS in Europe - Financial Ttimes), he originally was Product Manager for an AI powered financial product. David is also preparing a Ph.D. thesis in blockchain governance (corporate finance) at La Sorbonne (ESCP Business School) in Paris.
 
-ADD PA INFOS HERE
+[Polkassembly](https://polkassembly.io/) is the governance forum for the Polkadot and Kusama network along with majority of its parachains. The goal of Polkassembly is to enable hosting of a decentralized, transparent, and inclusive process for making decisions about the direction and development of the Polkadot and Kusama network along with its parachains.
 
 Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor.
 
