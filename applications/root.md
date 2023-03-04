@@ -10,7 +10,7 @@ Root is a common good initiative which aims to tackle current issues with on-cha
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through our protocol that interacts directly on-chain, showing the power of "console-like" queries to CRUD proposals from IPFS directly to the blockchain.
 
-The first version of our system utilises a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use the Mofified version of Borda's Count (MBC) to be more democratic.
+The first version of our system is inspired by a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use a Mofified version of Borda's Count (MBC) known as Dowdall system to be more democratic. More specifically, this method was invented by Canadian mathematician and political scientist Robert W. Dowdall in 1977. This modification of the Borda count method is a preferential voting system that ranks candidates in order of preference. The Dowdall system uses percentages instead of scores to calculate the winner, which allows for greater accuracy and fairness in the vote counting process.
 
 ### Overview
 
@@ -96,13 +96,104 @@ This is perhaps a radical, but obvious approach, that aims to optimise once agai
 
 We introduce a **weighted/ranked voting system** to help people participate in on-chain governance equally, no matter how many tokens they hold. 
 
-[This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our _proof of concept_ Google docs hack for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance via proxy accounts. 
+[This document](https://docs.google.com/document/d/1-g2A387hsOcWc7_UJWwwtgr2gyE553gvFURTVXOEErE/edit?usp=sharing) is our _proof of concept_ Google docs hack for building a preferendum pallet, which will act as an easy on-ramp for contributors to take part in on-chain governance. 
 
-- *As a proposer*, I can create a **draft** with as much or as little information as I am able, using whatever titles / headings / structures or even in the future mediums (code/text/gif/image/video etc).
+### User Stories
 
-- *As a participant*, I can join an optimistic org, create **alternatives** to a proposal’s content, structure or subject, add my own view directly on-chain, and tend to a consensus by voting for my preferences for a better decision-making process.
+#### Phase 1: Draft Creation / Writing Part
 
-- Each Optimistic Org is setup with a Quorum that is set up by the proposer and can be changed by voting.
+Phase 1 has an Optimistic quorum.
+
+#### User Story 1
+
+As a team member, I want to propose a Preferendum draft so that other team members can view it, suggest changes, and collaborate to refine it.
+
+##### Acceptance Criteria
+
+- The draft is published to IPFS.
+- The draft hash is recorded on chain.
+- All team members can access and suggest changes to the draft.
+
+#### User Story 2
+
+As a team member, I want to join the Preferendum team so that I can contribute to the team's vision and ideas.
+
+##### Acceptance Criteria
+
+- The process for joining the Preferendum team is transparent and auditable.
+- The Preferendum team membership is accessible to everyone.
+
+#### User Story 3
+
+As a team member, I want to collaborate on a Preferendum draft so that it can be refined and improved.
+
+##### Acceptance Criteria
+
+- All team members can view and suggest alternatives to the draft.
+- Suggestions and changes can be tracked and reverted if necessary.
+- Each version of the draft is published to IPFS and recorded on chain.
+
+#### User Story 4
+
+As a team member, I want to propose a veto to an alternative so that I can voice my opposition to a proposal that I believe is not in the team's best interest.
+
+##### Acceptance Criteria
+
+- All team members can propose a veto to a Preferendum proposal.
+- The veto proposal is transparent and auditable.
+- An optimistic Quorum must approve the deletion of any alternative or subject.
+- The final decision regarding the proposal is recorded on chain and automatically updated.
+
+#### User Story 5
+
+As a team member, I feel that we're ready to send the proposal to vote so I propose to send the proposal to the voting phase.
+
+##### Acceptance Criteria
+
+- Pessimistic quorum must be reached to start the voting phase
+- The hash of the proposal is sent to the voting phase and stored on IPFS
+ 
+### Phase 2: Preferendum Voting
+
+#### User Story 6
+
+As a team member, I want to vote on Preferendum proposals so that I can help determine which proposal will be submitted to the treasury for consideration.
+
+##### Acceptance Criteria
+
+- All team members can view and vote on Preferendum proposals.
+- The voting process is transparent and auditable.
+- The final Preferendum proposal is recorded on chain.
+
+### Phase 3: Treasury Submission
+
+#### User Story 7
+
+As a team member, I want to submit a Preferendum proposal to the treasury for consideration so that the team's vision and ideas can be implemented.
+
+##### Acceptance Criteria
+
+- The Preferendum proposal is recorded on chain.
+- The Preferendum proposal is submitted to the treasury for consideration.
+- The Preferendum proposal can be tracked and audited throughout the treasury submission process.
+
+#### Quorum
+
+A pessimistic Quorum must be reached to finish this phase.
+
+### General
+
+#### User Story 8
+
+As a Preferendum team member, I want to access Preferendum proposals and voting from any device so that I can participate in the team's decision-making process at any time.
+
+##### Acceptance Criteria
+
+- The Preferendum platform is accessible from any device with internet access.
+- The platform is user-friendly and easy to navigate.
+- The platform is secure and reliable.
+
+**Each Optimistic Org is setup with a Quorum that is set up by the proposer and can be changed by voting.**
 
 Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
 
