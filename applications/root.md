@@ -155,7 +155,7 @@ As a team member, I feel that we're ready to send the proposal to vote so I prop
 - Pessimistic quorum must be reached to start the voting phase
 - The hash of the proposal is sent to the voting phase and stored on IPFS
  
-### Phase 2: Preferendum Voting
+#### Phase 2: Preferendum Voting
 
 #### User Story 6
 
@@ -167,23 +167,11 @@ As a team member, I want to vote on Preferendum proposals so that I can help det
 - The voting process is transparent and auditable.
 - The final Preferendum proposal is recorded on chain.
 
-### Phase 3: Treasury Submission
-
-#### User Story 7
-
-As a team member, I want to submit a Preferendum proposal to the treasury for consideration so that the team's vision and ideas can be implemented.
-
-##### Acceptance Criteria
-
-- The Preferendum proposal is recorded on chain.
-- The Preferendum proposal is submitted to the treasury for consideration.
-- The Preferendum proposal can be tracked and audited throughout the treasury submission process.
-
 #### Quorum
 
 A pessimistic Quorum must be reached to finish this phase.
 
-### General
+#### General
 
 #### User Story 8
 
