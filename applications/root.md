@@ -351,7 +351,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | Lic ense | TBD |
+| **0a.** | License | Apache 2.0 |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create a preferundum, join a team, edit and update a proposal, send to vote |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
