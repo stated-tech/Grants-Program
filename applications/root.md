@@ -113,7 +113,7 @@ We introduce a **weighted/ranked voting system** to help people participate in o
 
 #### Phase 1: Draft Creation / Writing Part
 
-Phase 1 has an Optimistic quorum.
+Phase 1 has an Optimistic quorum. Instead of validating decisions, they can put their veto on people's views. Once quorum is reached, the corresponding subject or alternative is canceled.
 
 #### User Story 1
 
