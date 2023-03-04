@@ -199,7 +199,7 @@ As a Preferendum team member, I want to access Preferendum proposals and voting 
 
 Inspired from Proof-Of-Chaos mechanisms, we could send NFTs to participants to give them a souvenir of their participation by minting RMRK based .pdf documents linked to the hash of their initial proposal. This NFT could also represent their identity in a Proof-Of-Reputation based environment.
 
-Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
+>Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
 
 Engagement can have a reputational, financial and creative upside, that aligns incentives between all parties better than the current system.
 
@@ -207,7 +207,7 @@ It also starts to solve other issues - namely, information asymmetry between vot
 
 We can see how from these initial foundations we are on a path to solving issues such as **talent acquisition**, development and accreditation using the system to bootstrap the sourcing, sustaining and scaling collective network intelligence.
 
-The preferundum pallet development has begun, we need to continue it with the proxy logic. Then, we will create a full interface that will interact with the pallets, the proxies, the IPFS storage.
+The preferundum pallet development has begun. Then, we will create a full interface that will interact with the pallets and stored on IPFS.
 
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
