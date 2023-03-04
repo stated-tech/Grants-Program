@@ -89,7 +89,7 @@ This leads to proposals taking far longer, teams being paid far less, whilst vot
 
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
 
-####**Is there another way?**
+#### **Is there another way?**
 
 When we begin with a basic idea that no proposal put forward is final, or correct, or cannot be improved, then we begin to design different systems, optimising for advancing coherence between proposers and also voters. who we should aim to move towards contributors and even co-creators of proposals.
 
