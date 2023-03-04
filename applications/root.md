@@ -10,7 +10,13 @@ Root is a common good initiative which aims to tackle current issues with on-cha
 
 We want to realise the potential of on-chain governance by enabling proposals and teams to be created, iterated and formed through our protocol that interacts directly on-chain, showing the power of "console-like" queries to CRUD proposals from IPFS directly to the blockchain.
 
-The first version of our system is inspired by a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use a Mofified version of Borda's Count (MBC) known as Dowdall system to be more democratic. More specifically, this method was invented by Canadian mathematician and political scientist Robert W. Dowdall in 1977. This modification of the Borda count method is a preferential voting system that ranks candidates in order of preference. The Dowdall system uses percentages instead of scores to calculate the winner, which allows for greater accuracy and fairness in the vote counting process.
+The first version of our system is inspired by a cutting edge 18th century voting system known as [Borda Count](https://en.wikipedia.org/wiki/Borda_count). In fact, it will use a particular version of Modified Borda's Count (MBC) known as called ["Score Voting"](https://en.wikipedia.org/wiki/Score_voting) or "Range Voting" that allows voters to assign a numerical score to each proposal, typically on a scale of 0 to 10 or 0 to 100, instead of just approving or disapproving of each proposal. This allows voters to express a more nuanced preference for each proposal, rather than just a binary choice.
+
+In Score Voting, each voter assigns a numerical score to each proposal, and the scores are tallied up to determine the winner. The proposal with the highest overall score is typically chosen as the winner. This system allows voters to express a more granular preference for each proposal, and it can be more effective at identifying the most widely supported proposal, even in cases where there is no clear consensus among voters.
+
+Score Voting can also be modified to require that each voter allocate a total of 100 points across all the proposals, to ensure that each voter is submitting a complete preference ranking. This is sometimes called "100-point voting" or **"range normalization"**.
+
+[Warren D. Smith](https://www.rangevoting.org/WarrenSmithPages/homepage/rangevote.pdf) and Jan Kok both independently proposed the idea of score voting in the early 2000s, and since then it has been the subject of much research and experimentation in the field of electoral systems.
 
 ### Overview
 
@@ -18,9 +24,7 @@ Root is born from experience gained in ongoing applied contribution to on-chain 
 
 By returning to first principles we aim to standardize proposal making processes for the Substrate ecosystem, optimising for _intelligent adoption_ rather than simply gamifying governance in a way that may create unintended and undesirable outcomes over the long term. 
 
-Root is built around a collective creation and decision making system that uses a composable voting system inspired by Borda Count to compute voting and allow contributors to create _preferendums_ drectly linked to governance pallets.
-
-> The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
+Root is built around a collective creation and decision making system that uses a composable voting system inspired by Borda's Count and ranged normalization to compute voting and allow contributors to create _preferendums_ drectly linked to governance pallets.
 
 Our goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin and inspired by [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisations in the process.
 
@@ -47,7 +51,7 @@ Let’s break this down a little more by arguing for some of the current ideas t
 
   - **Outcome: there is low voter participation**
 
-  - **Solution: we need simpler UX/UI**
+  - **Solution: we need more collaborative UX/UI**
 
 >Making governance voting easier is definitely something we should aim for and simple more proactive UX/UI is important, but it can also optimise for increasingly poor decision-making - aka, there should be some time cost to making a _thoughtful_ decision and that should be implicit in the design principles.
 >
@@ -70,7 +74,14 @@ Let’s break this down a little more by arguing for some of the current ideas t
 >
 >A simple form is the obvious answer to address short term issues, but when we approach this challenge from a longer term perspective of optimising for a bigger picture - sourcing, sustaining and scaling collective network intelligence we can see that some standardisation is useful, but given the diversity of talent we have the potential to fund, across many domains, who each may prefer a different medium of expression, we can then see that standardisation also constrains the intelligence of the collective - voters and proposers.
 
-**Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
+- **Problem 3: Referendums offer binary votes on some package of information, but as we know they are very dumb tools.**
+
+  - **Outcome: A "tyranny of the majority" where the views of a minority group are ignored or suppressed.**
+
+  - **Solution: range normalization**
+>Range normalization can help to counteract the tendency for some voters to exaggerate their scores, either by assigning the highest possible score to their preferred option or by assigning the lowest possible score to all other options. This can lead to skewed results and undermine the fairness of the voting process.
+>
+>By normalizing the scores, the range voting system can more accurately capture the true preferences of the voters and ensure that the winning option is the one that is most preferred by the majority.
 
 In addition, the current proposal process ends with voters approving funds into a ‘project multsig’, we essentially leave the funded team successful in one part of the process (getting funding approval) but left entirely on their own to figure out delivery of what is in essence something that almost always needs to mesh with a complex and ever changing underlying system.
 
@@ -78,7 +89,7 @@ This leads to proposals taking far longer, teams being paid far less, whilst vot
 
 If we can drive forward more nuanced and interactive decision making, that leads to more imaginative proposals that enable us to share financial value and credit more fairly across a group, we can then begin to see this whole process as the pre-formation process for talent sourcing and the setup of fluid and optimistic on-chain organisational structures like shokunin’s [optimistic pure proxies](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567).
 
-**Is there another way?**
+####**Is there another way?**
 
 When we begin with a basic idea that no proposal put forward is final, or correct, or cannot be improved, then we begin to design different systems, optimising for advancing coherence between proposers and also voters. who we should aim to move towards contributors and even co-creators of proposals.
 
@@ -261,9 +272,9 @@ MatthiewM is a rust (substrate) developer. He originally was a physics engineer.
 
 David has a background in the Social Sharing Economy as an Impact Fintech Founder. Gratuated from the EDHEC Business School (top 10 BS in Europe - Financial Ttimes), he originally was Product Manager for an AI powered financial product. David is also preparing a Ph.D. thesis in blockchain governance (corporate finance) at La Sorbonne (ESCP Business School) in Paris.
 
-Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor.
-
 ADD PA INFOS HERE
+
+Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor.
 
 Decent Partners, Polkassembly and Stated.Tech are an active part of the Substrate ecosystem by participating in sevevral forum and governance discussions, building cutting-edge experiments and projects that have proven their utility.
 
@@ -281,15 +292,14 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/monsieurbulb
 
-ADD PA INFOS HERE
+- https://github.com/polkassembly
 
 ### Team LinkedIn Profiles (if available)
 
 - https://www.linkedin.com/in/matt-m-6a557b254/
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
 - https://www.linkedin.com/in/rfwelsh/
-
-ADD PA INFOS HERE
+- https://www.linkedin.com/company/polkassembly/
 
 ## Development Status :open_book:
 
@@ -310,13 +320,13 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ### Overview
 
-- **Total Estimated Duration:** 5.5 months
+- **Total Estimated Duration:** 5 months
 - **Full-Time Equivalent (FTE):**  5 FTE
 - **Total Costs:** 90 000 USD
 
-### Milestone 1 - Back-End — Root - Preferendum Pallet - 40k
+### Milestone 1 - Back-End — stated.tech - Preferendum Pallet - 40k
 
-- **Estimated Duration:** 2.5 month
+- **Estimated Duration:** 3 month
 - **FTE:**  2
 - **Costs:** 40,000 USD
 
@@ -327,16 +337,16 @@ The code of the preferundum pallet is available in our github ; we are developin
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish some **articles** that explains the philosophy, the interest and the roadmap |
-| 1. | Substrate module: Setup | Our proposal making process is fully Org-agnostic: Multisigs, proxy-based organizations or any single address are welcome to create preferendums. Whenever there is a join, we will add the address account to the proposal. |
+| 1. | Substrate module: Proposal | Our proposal making process is fully Org-agnostic: Multisigs, proxy-based organizations or any single address are welcome to create preferendums. Whenever there is a join, we will add the address account to the proposal. |
 | 2. | Substrate module: Quorum | We're building a custom quorum specifically designed for Preferendums. This quorum is a hybrid between an "optimistic" and "pessimistic" quorum that enables to take decisions in a way that suits each phase of the proposal process. the first phase uses an optimistic quorum that only takes into account vetoes, while the second phase which is the voting phase, uses a pessimistic quorum. Quorums are needed to decide when to vote or when to end a phase. There will be function where you can modify the maximum number of people that can join the team, and modify it over time. |
 | 3. | Substrate module: Preferundum | The pallet preferundum will host functions described in Milestone 2. It will be linking the hashmaps to IPFS and store them on the blockchain. Vetoes and joins are managed bu the Quorum module (optimistic). |
 | 4. | Substrate module: Vote | For the logic of the vote, we will allow for a more democratic voting by giving each member of the proxy the same voting power. Using the Dowdall method, voters will decide percentages of their will to support this different alternatives. Voting is started and stopped according to quorum module (pessimistic).|
-| 5. | Runtime Upgrades | We will deploy our Pallet on Kabocha as a DotSama-native Experimental Playground Parachain. We're confident that our pallet will contribute to the development of several other parachains where we will implement preferendums over time and experience. Our aim is to end developing a version for Kusama and propose it on OpenGov.|
+| 5. | Runtime Upgrades | We will deploy our Pallet on Kabocha as a DotSama-native Experimental Playground Parachain. We're confident that our pallet will contribute to the development of several other parachains where we will implement preferendums over time and experience. Our aim is to end developing a version for Statemine and propose it on OpenGov.|
 
-### Milestone 2 - Root x Polkassembly - Front-End - 50k
+### Milestone 2 - stated.tech x Polkassembly - Front-End - 50k
 
-- **Estimated duration:** 3 month
-- **FTE:**  1.5
+- **Estimated duration:** 2 month
+- **FTE:**  3
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
