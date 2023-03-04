@@ -22,7 +22,7 @@ Root is built around a collective creation and decision making system that uses 
 
 > The Borda count is a ranked voting system: the voter ranks the list of candidates in order of preference. So, for example, the voter gives a 1 to their most preferred candidate, a 2 to their second most preferred, and so on. [Borda Count - Wikipedia](https://en.wikipedia.org/wiki/Borda_count).
 
-Our first goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin and instantiate a [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisation in the process.
+Our goal is to facilitate low level consensuses for proposals from initiating teams, before they can smoothly send their proposal to gov1/2 from/to any Substrate network via root.origin and inspired by [shokunin style](https://polkaverse.com/@shokunin/let-s-use-pallet-proxy-for-chaos-and-good-32567) optimistic pure proxy organisations in the process.
 
 Teams can now benefit from an environment where they can collaborate and reach consensus to get supported from the ground up before they send their proposals to a binary Y/N referendum.
 
@@ -114,6 +114,8 @@ As a team member, I want to propose a Preferendum draft so that other team membe
 - The draft hash is recorded on chain.
 - All team members can access and suggest changes to the draft.
 
+##### **N.B Quorum is set up by the proposer and can be changed by Quorum itself.**
+
 #### User Story 2
 
 As a team member, I want to join the Preferendum team so that I can contribute to the team's vision and ideas.
@@ -193,7 +195,9 @@ As a Preferendum team member, I want to access Preferendum proposals and voting 
 - The platform is user-friendly and easy to navigate.
 - The platform is secure and reliable.
 
-**Each Optimistic Org is setup with a Quorum that is set up by the proposer and can be changed by voting.**
+#### Bonus Story
+
+Inspired from Proof-Of-Chaos mechanisms, we could send NFTs to participants to give them a souvenir of their participation by minting RMRK based .pdf documents linked to the hash of their initial proposal. This NFT could also represent their identity in a Proof-Of-Reputation based environment.
 
 Suddenly we can open up proposals as **economic opportunities** for anyone to review/improve/iterate proposals and indeed the projects themselves by delegating voting power to these projects.
 
@@ -301,11 +305,7 @@ ADD PA INFOS HERE
 
 ## Development Status :open_book:
 
-Our interface will be based on two pallets that we have currently began to work on.
-
-- The first used is the proxy pallet, that will be called every time a proposal is created. Only 32 people (the maximum of a proxy) can participate in the development of the proposal. So, everyone who has participated in this will have the right to vote with the same chance (without taking into account the balances of tokens of each). This will assume a fair vote.
-
-- The second one (pallet preferundum), will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
+Our interface will be based a custom pallet that we have already began to work on: **the Preferendum Pallet**. It will be mainly composed of Hashmap to link every preferundum with subjects and every subject with possibilities.
 
 Data won’t be stored in the blockchain to avoid a fees surcharge, that’s why we will only store of pallet the cid of the data stored in IPFS.
 
@@ -313,7 +313,7 @@ We have made a off-chain exemple by linking a google with discord through a bot.
 
 With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and even use these platforms as storage solutions like [the Virto team](https://kusama.subsquare.io/treasury/proposal/265) is doing.
 
-The code of the preferundum pallet is available in our github ; we are developing it, it is not fully working but the logic is in.
+The code of the preferundum pallet is available in our github ; we are developing it, it is not fully tested but the logic is in.
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -322,11 +322,11 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 ### Overview
 
-- **Total Estimated Duration:** 4 months
-- **Full-Time Equivalent (FTE):**  2 FTE
+- **Total Estimated Duration:** 5.5 months
+- **Full-Time Equivalent (FTE):**  5 FTE
 - **Total Costs:** 90 000 USD
 
-### Milestone 1 - Back-End — Root - 40k
+### Milestone 1 - Back-End — Root - Preferendum Pallet - 40k
 
 - **Estimated Duration:** 2.5 month
 - **FTE:**  2
@@ -334,18 +334,18 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | TBD |
+| **0a.** | License | MIT |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can create a preferundum, edit one, add possibility, vote, participate in the proxy |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article** that explains the philosophy, the interest and the roadmap |
-| 1. | Substrate module: Proxy | We will use the proxy pallet to create team. Whenever there is a join, we will add the address account to the proxy. |
-| 2. | Proxy module: Quorum | Through proxy, creation of a quorum to decide when to vote/when is the end, there will be function where you can modify the number of people to join the team |
-| 3. | Substrate module: Preferundum | The pallet preferundum will host functions described in Milestone 2. It will be linked to proxy pallet |
-| 4. | Substrate module: Vote | For the logic of the vote, we will implement lock function so that every time someone vote, its tokens are locked until the end of the vote. We also will allow democratic voting by giving each member of the proxy the same amount of token to lock. This feature can be changed by Quorum.|
+| 0e. | Article | We will publish some **articles** that explains the philosophy, the interest and the roadmap |
+| 1. | Substrate module: Setup | Our proposal making process is fully Org-agnostic: Multisigs, proxy-based organizations or any single address are welcome to create preferendums. Whenever there is a join, we will add the address account to the proposal. |
+| 2. | Substrate module: Quorum | We're building a custom quorum specifically designed for Preferendums. This quorum is a hybrid between an "optimistic" and "pessimistic" quorum that enables to take decisions in a way that suits each phase of the proposal process. the first phase uses an optimistic quorum that only takes into account vetoes, while the second phase which is the voting phase, uses a pessimistic quorum. Quorums are needed to decide when to vote or when to end a phase. There will be function where you can modify the maximum number of people that can join the team, and modify it over time. |
+| 3. | Substrate module: Preferundum | The pallet preferundum will host functions described in Milestone 2. It will be linking the hashmaps to IPFS and store them on the blockchain. Vetoes and joins are managed bu the Quorum module (optimistic). |
+| 4. | Substrate module: Vote | For the logic of the vote, we will allow for a more democratic voting by giving each member of the proxy the same voting power. Using the Dowdall method, voters will decide percentages of their will to support this different alternatives. Voting is started and stopped according to quorum module (pessimistic).|
 | 5. | Runtime Upgrades | We will deploy our Pallet on Kabocha as a DotSama-native Experimental Playground Parachain. We're confident that our pallet will contribute to the development of several other parachains where we will implement preferendums over time and experience. Our aim is to end developing a version for Kusama and propose it on OpenGov.|
 
-### Milestone 2 - Front-End - 50k
+### Milestone 2 - Root x Polkassembly - Front-End - 50k
 
 - **Estimated duration:** 3 month
 - **FTE:**  1.5
@@ -359,13 +359,13 @@ The code of the preferundum pallet is available in our github ; we are developin
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Presentation Website | We will publish a **website** that explains the philosophy, the interest and the roadmap |
 | 0f. | Research on architecture, pallet integrations, proxy pallet, preferendums | done |
-| 1. | Module: Root.js | This repo will be treating our front-end for preferendums. Create a preferendum, join a team, add subjects and alternatives, and vote. From this website, you can first create your preferundum. Whenever someone new wants to participate, quorum is requested to accept their request (or not), which will give them the right to enter the channel, participate, and vote in the preferendum. Root will store the information of each preferundum on IPFS (question of the preferundum, subjects and their alternatives). Then will put the hash on-chain through the pallet preferundum. Through this UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. You can also access a  **list** of all active and passed/rejected preferundums. Root will get back the hash of all preferendums, and get back the text of IPFS and then display it to the interface. You can also create an alternative (subproposal) and add a new possibility. Root will store it on IFPS, add it on chain and then display it in the UI. |
+| 1. | Module: Root.js | This repo will be treating our front-end for preferendums. Create a preferendum, join a team, add subjects and alternatives, and vote. From this website, you can first create your preferundum. Whenever someone new wants to participate, quorum is requested to accept their request (or not), which will give them the right to enter the channel, participate, and vote in the preferendum. Root will store the information of each preferundum on IPFS (question of the preferundum, subjects and their alternatives). Then will put the hash on-chain through the pallet preferundum. Through this UI, you can **join** (if the proxy is not full), you will tokengate your wallet which allows you to join the channel and the proxy. You can also access a  **list** of all active and passed/rejected preferundums. Root will get back the hash of all preferendums, and get back the text of IPFS and then display it to the interface. You can also create an alternative (subproposal) by adding a new possibility, or cancel your publications. Root will store them on IFPS, add their hashmap on chain and then them it in the UI. |
 | 6. | Roadmap updates | Social Media updates, roadmap follow up via Trello and on our website |
 | 7. | Hosting | UI hosting and maintainance |
 
 ## Future Plans
 
-Once we've deployed preferendums with proxies, we're planning to use Root pallets to enhance treasury mechanisms and develop our logic on several parachains as a standardized governance process. We would most likely use parathreads to deploy our logic seemlessly while remaining a **common good experiment**.
+Once we've deployed preferendums for small and mid-size teams, we're planning to use Root pallets to enhance treasury mechanisms and develop our logic on several parachains as a standardized governance process. We would most likely use parathreads to deploy our logic seemlessly while remaining a **common good experiment**.
 
 As a Network Public, Root's goal is to become a sovereign network focused on delivering Public Services related to governance and acting as a laboratory for the DotSama ecosystem. We're thus planning to develop several types of preferendums and treasury mechanisms to act as a GaaS network (Governance as a Service).
 
