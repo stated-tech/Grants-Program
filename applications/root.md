@@ -192,8 +192,6 @@ If we can drive forward more **nuanced and interactive decision making**, that l
 
 ![Root Design](https://github.com/stated-tech/Grants-Program/blob/master/Root%20Design.png)
 
-![Technical Logic](https://github.com/stated-tech/Grants-Program/blob/master/Technical%20logic%20(1).png)
-
 ### Ecosystem Fit
 
 The stated.tech team seeks to provide the ecosystem with Root as a new governance framework available to every parachain & implementable throughout any dApp on those parachains - our first implementation will be on [Kabocha](https://kabocha.network) - a Kusama parachain. We will then focus on parachain deployment by proposing to integrate our pallet to existing parachains' runtime.
