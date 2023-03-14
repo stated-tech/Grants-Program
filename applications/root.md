@@ -320,7 +320,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 ### Milestone 2 - stated.tech x Polkassembly - Front-End - 50k
 
 - **Estimated duration:** 2 month
-- **FTE:**  3
+- **FTE:**  4
 - **Costs:** 50,000 USD
 
 | Number | Deliverable | Specification |
