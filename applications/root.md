@@ -119,8 +119,6 @@ Phase 1 has an Optimistic quorum. Instead of validating decisions, they can put 
 
 As a team member, I want to propose a Preferendum draft so that other team members can view it, suggest changes, and collaborate to refine it.
 
-**Acceptance Criteria**
-
 - The draft is published to IPFS.
 - The draft hash is recorded on chain.
 - All team members can access and suggest changes to the draft.
@@ -131,16 +129,12 @@ As a team member, I want to propose a Preferendum draft so that other team membe
 
 As a team member, I want to join the Preferendum team so that I can contribute to the team's vision and ideas.
 
-**Acceptance Criteria**
-
 - The process for joining the Preferendum team is transparent and auditable.
 - The Preferendum team membership is accessible to everyone.
 
 ##### User Story 3
 
 As a team member, I want to collaborate on a Preferendum draft so that it can be refined and improved.
-
-**Acceptance Criteria**
 
 - All team members can view and suggest alternatives to the draft.
 - Suggestions and changes can be tracked and reverted if necessary.
@@ -149,8 +143,6 @@ As a team member, I want to collaborate on a Preferendum draft so that it can be
 ##### User Story 4
 
 As a team member, I want to propose a veto to an alternative so that I can voice my opposition to a proposal that I believe is not in the team's best interest.
-
-**Acceptance Criteria**
 
 - All team members can propose a veto to a Preferendum proposal.
 - The veto proposal is transparent and auditable.
@@ -161,8 +153,6 @@ As a team member, I want to propose a veto to an alternative so that I can voice
 
 As a team member, I feel that we're ready to send the proposal to vote so I propose to send the proposal to the voting phase.
 
-**Acceptance Criteria**
-
 - Pessimistic quorum must be reached to start the voting phase
 - The hash of the proposal is sent to the voting phase and stored on IPFS
  
@@ -171,8 +161,6 @@ As a team member, I feel that we're ready to send the proposal to vote so I prop
 ##### User Story 6
 
 As a team member, I want to vote on Preferendum proposals so that I can help determine which proposal will be submitted to the treasury for consideration.
-
-**Acceptance Criteria**
 
 - All team members can view and vote on Preferendum proposals.
 - The voting process is transparent and auditable.
@@ -199,7 +187,6 @@ The preferundum pallet development has begun. Then, we will create a full interf
 >By pushing in exactly the opposite direction to form creation and data standardisation, we inspire more originality and opportunity, designing in a more humane way… appreciating that what works for some, will not work for all.
 
 If we can drive forward more **nuanced and interactive decision making**, that leads to more imaginative proposals that enable us to **share financial value and credit more fairly across a group** with delegations, we can then begin to see this whole process as the pre-formation process for **talent sourcing** and the setup of fluid and optimistic **on-chain organisational structures** like [shokunin’s patronage proxies](https://patronage.shokunin.network/).
-
 
 ### Root Design
 
