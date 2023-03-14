@@ -115,86 +115,74 @@ We introduce a **weighted/ranked voting system** to help people participate in o
 
 Phase 1 has an Optimistic quorum. Instead of validating decisions, they can put their veto on people's views. Once quorum is reached, the corresponding subject or alternative is canceled.
 
-#### User Story 1
+##### User Story 1
 
 As a team member, I want to propose a Preferendum draft so that other team members can view it, suggest changes, and collaborate to refine it.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - The draft is published to IPFS.
 - The draft hash is recorded on chain.
 - All team members can access and suggest changes to the draft.
 
-##### **N.B Quorum is set up by the proposer and can be changed by Quorum itself.**
+**N.B Quorum is set up by the proposer and can be changed by Quorum itself.**
 
-#### User Story 2
+##### User Story 2
 
 As a team member, I want to join the Preferendum team so that I can contribute to the team's vision and ideas.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - The process for joining the Preferendum team is transparent and auditable.
 - The Preferendum team membership is accessible to everyone.
 
-#### User Story 3
+##### User Story 3
 
 As a team member, I want to collaborate on a Preferendum draft so that it can be refined and improved.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - All team members can view and suggest alternatives to the draft.
 - Suggestions and changes can be tracked and reverted if necessary.
 - Each version of the draft is published to IPFS and recorded on chain.
 
-#### User Story 4
+##### User Story 4
 
 As a team member, I want to propose a veto to an alternative so that I can voice my opposition to a proposal that I believe is not in the team's best interest.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - All team members can propose a veto to a Preferendum proposal.
 - The veto proposal is transparent and auditable.
 - An optimistic Quorum must approve the deletion of any alternative or subject.
 - The final decision regarding the proposal is recorded on chain and automatically updated.
 
-#### User Story 5
+##### User Story 5
 
 As a team member, I feel that we're ready to send the proposal to vote so I propose to send the proposal to the voting phase.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - Pessimistic quorum must be reached to start the voting phase
 - The hash of the proposal is sent to the voting phase and stored on IPFS
  
 #### Phase 2: Preferendum Voting
 
-#### User Story 6
+##### User Story 6
 
 As a team member, I want to vote on Preferendum proposals so that I can help determine which proposal will be submitted to the treasury for consideration.
 
-##### Acceptance Criteria
+**Acceptance Criteria**
 
 - All team members can view and vote on Preferendum proposals.
 - The voting process is transparent and auditable.
 - The final Preferendum proposal is recorded on chain.
 
-#### Quorum
+**Quorum**
 
 A pessimistic Quorum must be reached to finish this phase.
 
-#### General
-
-#### User Story 8
-
-As a Preferendum team member, I want to access Preferendum proposals and voting from any device so that I can participate in the team's decision-making process at any time.
-
-##### Acceptance Criteria
-
-- The Preferendum platform is accessible from any device with internet access.
-- The platform is user-friendly and easy to navigate.
-- The platform is secure and reliable.
-
-#### Bonus Story
+##### Bonus Story
 
 Inspired from Proof-Of-Chaos mechanisms, we could send NFTs to participants to give them a souvenir of their participation by minting RMRK based .pdf documents linked to the hash of their initial proposal. This NFT could also represent their identity in a Proof-Of-Reputation based environment.
 
