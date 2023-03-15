@@ -246,6 +246,7 @@ MatthiewM is a rust (substrate) developer. He originally was a physics engineer.
 David has a background in the Social Sharing Economy as an Impact Fintech Founder. Gratuated from the EDHEC Business School (top 10 BS in Europe - Financial Ttimes), he originally was Product Manager for an AI powered financial product. David is also preparing a Ph.D. thesis in blockchain governance (corporate finance) at La Sorbonne (ESCP Business School) in Paris.
 
 [Polkassembly](https://polkassembly.io/) is the governance forum for the Polkadot and Kusama network along with majority of its parachains. The goal of Polkassembly is to enable hosting of a decentralized, transparent, and inclusive process for making decisions about the direction and development of the Polkadot and Kusama network along with its parachains.
+Polkassembly Team: [Nikhil Ranjan]([url](https://www.linkedin.com/in/nikhilran/)), Co-founder & CTO | [Jaskirat Singh]([url](https://www.linkedin.com/in/jaskirat21/)), Co-Founder & CEO
 
 Richard - Edgeware council member, contributor. Co-steward of [Kabocha parachain](https://kabocha.network]. Co-founded [Copa90.com](https://copa90.com), creative director [Bigballs Media](https://www.hollywoodreporter.com/news/general-news/liberty-global-buys-stake-bigballs-831290/), and [I Am Playr](https://www.youtube.com/watch?v=ZceipOGEblk). Been building/funding/scaling communities on social networks since 2007. Previously [Decred](https://github.com/monsieurbulb/forksintheroad/blob/master/Decred_forks_in_the_road.md) contributor.
 
@@ -265,7 +266,7 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 - https://github.com/monsieurbulb
 
-- https://github.com/polkassembly
+- https://github.com/Premiurly/polkassembly
 
 ### Team LinkedIn Profiles (if available)
 
@@ -273,6 +274,8 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 - https://www.linkedin.com/in/david-germanowicz-57151a236/
 - https://www.linkedin.com/in/rfwelsh/
 - https://www.linkedin.com/company/polkassembly/
+- https://www.linkedin.com/in/nikhilran/
+- https://www.linkedin.com/in/jaskirat21/
 
 ## Development Status :open_book:
 
@@ -282,7 +285,7 @@ Data won’t be stored in the blockchain to avoid a fees surcharge, that’s why
 
 We have made a off-chain exemple by linking a google with discord through a bot. Do not hesitate to see what we have done by joining our discord : https://discord.gg/YzpUVuJz
 
-With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and even use these platforms as storage solutions like [the Virto team](https://kusama.subsquare.io/treasury/proposal/265) is doing.
+With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and even use these platforms as storage solutions like [the Virto team](https://kusama.polkassembly.io/referenda/77) is doing.
 
 The code of the preferundum pallet is available in our github ; we are developing it, it is not fully tested but the logic is in.
 
@@ -294,8 +297,8 @@ The code of the preferundum pallet is available in our github ; we are developin
 ### Overview
 
 - **Total Estimated Duration:** 5 months
-- **Full-Time Equivalent (FTE):**  5 FTE
-- **Total Costs:** 90 000 USD
+- **Full-Time Equivalent (FTE):**  6 FTE
+- **Total Costs:** 96 500 USD
 
 ### Milestone 1 - Back-End — stated.tech - Preferendum Pallet - 40k
 
@@ -321,7 +324,7 @@ The code of the preferundum pallet is available in our github ; we are developin
 
 - **Estimated duration:** 2 month
 - **FTE:**  4
-- **Costs:** 50,000 USD
+- **Costs:** 56,500 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
