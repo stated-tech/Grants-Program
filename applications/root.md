@@ -213,6 +213,8 @@ Which leads to a lack of engagement from contributors, and billion dollars econo
 
 We want to fix these issues by leveraging engagement through the whole proposal making process to make it more human and ultimately more comprehensible. 
 
+Our partnership with Polkassembly allows us to not only benefit from their UX/UI experience, but also fast-tracks Root into a production environment, exposing our new approach to proposal development to the wider ecosystem.
+
 ## Team :busts_in_silhouette:
 
 ### Team members
@@ -287,7 +289,7 @@ We have made a off-chain exemple by linking a google with discord through a bot.
 
 With our front-end, it will be the same. We could also display it everywhere: discord, telegram, element etc. and even use these platforms as storage solutions like [the Virto team](https://kusama.polkassembly.io/referenda/77) is doing.
 
-The code of the preferundum pallet is available in our github ; we are developing it, it is not fully tested but the logic is in.
+The code of the preferundum pallet is available in [Matthiew's github](https://github.com/Matthiewm23/Preferundum/tree/main/pallets/voting/src) ; we are developing it, it is not fully tested but the logic is in. 
 
 ## Development Roadmap :nut_and_bolt:
 
